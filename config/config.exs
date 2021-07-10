@@ -1,1 +1,2 @@
-# This file is responsible for config
+# This file is responsible for configuring your application
+# and its dependencies
