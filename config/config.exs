@@ -2,4 +2,7 @@
 # and its dependencies with the aid of the Mix.Config module.
 #
 # This configuration file is loaded before any dependency and
-# is restricted to this proj
+# is restricted to this project.
+
+# General application configuration
+us
