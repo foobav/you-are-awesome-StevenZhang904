@@ -7,4 +7,7 @@
 # General application configuration
 use Mix.Config
 
-config :study_reminder
+config :study_reminder,
+  ecto_repos: [StudyReminder.Repo]
+
+# C
