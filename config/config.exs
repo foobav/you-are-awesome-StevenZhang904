@@ -5,4 +5,6 @@
 # is restricted to this project.
 
 # General application configuration
-us
+use Mix.Config
+
+config :study_reminder
