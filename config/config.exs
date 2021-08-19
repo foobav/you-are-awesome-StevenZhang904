@@ -11,4 +11,5 @@ config :study_reminder,
   ecto_repos: [StudyReminder.Repo]
 
 # Configures the endpoint
-config :study
+config :study_reminder, StudyReminderWeb.Endpoint,
+  url: [
