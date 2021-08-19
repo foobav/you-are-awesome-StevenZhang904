@@ -10,4 +10,5 @@ use Mix.Config
 config :study_reminder,
   ecto_repos: [StudyReminder.Repo]
 
-# C
+# Configures the endpoint
+config :study
