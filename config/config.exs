@@ -12,4 +12,5 @@ config :study_reminder,
 
 # Configures the endpoint
 config :study_reminder, StudyReminderWeb.Endpoint,
-  url: [
+  url: [host: "localhost"],
+  secret_key_base: "+jkIoD
