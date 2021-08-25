@@ -19,4 +19,4 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 
 # Configures Elixir's Logger
 config :logger, :console,
-  f
+  format: "$time $metadata[$level] $message
