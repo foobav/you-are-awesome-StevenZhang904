@@ -17,4 +17,6 @@ config :study_reminder, StudyReminderWeb.Endpoint,
   render_errors: [view: StudyReminderWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: StudyReminder.PubSub, adapter: Phoenix.PubSub.PG2]
 
-# Configure
+# Configures Elixir's Logger
+config :logger, :console,
+  f
