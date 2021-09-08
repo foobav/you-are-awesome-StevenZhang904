@@ -23,4 +23,6 @@ config :logger, :console,
   metadata: [:request_id]
 
 # Use Jason for JSON parsing in Phoenix
-config :
+config :phoenix, :json_library, Jason
+
+# Import environment sp
