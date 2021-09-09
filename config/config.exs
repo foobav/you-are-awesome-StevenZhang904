@@ -31,4 +31,4 @@ import_config "#{Mix.env()}.exs"
 
 config :study_reminder, StudyReminderWeb.Authentication.Guardian,
   issuer: "study_reminder",
-  secret_key: "JCQIa2ke5OHPDl20OpkkRbDSNHHj
+  secret_key: "JCQIa2ke5OHPDl20OpkkRbDSNHHjY8GnPKW7DAyaCCDhszH3TR2VgFIX7FGvw5qU"
