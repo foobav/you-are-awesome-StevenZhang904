@@ -26,4 +26,4 @@ config :logger, :console,
 config :phoenix, :json_library, Jason
 
 # Import environment specific config. This must remain at the bottom
-# of th
+# of this file so it overrides the configurat
