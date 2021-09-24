@@ -2,4 +2,6 @@ use Mix.Config
 
 # Configure your database
 config :study_reminder, StudyReminder.Repo,
-  username: "de
+  username: "dev",
+  password: "dev123",
+  database: "s
