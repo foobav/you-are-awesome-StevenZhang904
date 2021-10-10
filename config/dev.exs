@@ -12,4 +12,5 @@ config :study_reminder, StudyReminder.Repo,
 # For development, we disable any cache and enable
 # debugging and code reloading.
 #
-# The wat
+# The watchers configuration can be used to run external
+# 
