@@ -13,4 +13,4 @@ config :study_reminder, StudyReminder.Repo,
 # debugging and code reloading.
 #
 # The watchers configuration can be used to run external
-# 
+# watchers to your application. For ex
