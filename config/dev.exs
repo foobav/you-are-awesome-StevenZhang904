@@ -13,4 +13,5 @@ config :study_reminder, StudyReminder.Repo,
 # debugging and code reloading.
 #
 # The watchers configuration can be used to run external
-# watchers to your application. For ex
+# watchers to your application. For example, we use it
+# with webpack to r
