@@ -15,4 +15,5 @@ config :study_reminder, StudyReminder.Repo,
 # The watchers configuration can be used to run external
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
-config :stud
+config :study_reminder, StudyReminderWeb.Endpoint,
+  http: [por
