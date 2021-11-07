@@ -16,4 +16,6 @@ config :study_reminder, StudyReminder.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :study_reminder, StudyReminderWeb.Endpoint,
-  http: [por
+  http: [port: 4000],
+  debug_errors: true,
+  c
