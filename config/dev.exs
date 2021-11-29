@@ -18,4 +18,5 @@ config :study_reminder, StudyReminder.Repo,
 config :study_reminder, StudyReminderWeb.Endpoint,
   http: [port: 4000],
   debug_errors: true,
-  c
+  code_reloader: true,
+  check_origin: fal
