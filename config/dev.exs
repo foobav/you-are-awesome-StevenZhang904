@@ -19,4 +19,9 @@ config :study_reminder, StudyReminderWeb.Endpoint,
   http: [port: 4000],
   debug_errors: true,
   code_reloader: true,
-  check_origin: fal
+  check_origin: false,
+  watchers: []
+
+# ## SSL Support
+#
+# In or
