@@ -38,4 +38,5 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 #     https: [
 #       port: 4001,
 #       cipher_suite: :strong,
-#       
+#       keyfile: "priv/cert/selfsigned_key.pem",
+#  
