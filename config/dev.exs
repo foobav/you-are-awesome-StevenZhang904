@@ -36,4 +36,6 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 # The `http:` config above can be replaced with:
 #
 #     https: [
-#       p
+#       port: 4001,
+#       cipher_suite: :strong,
+#       
