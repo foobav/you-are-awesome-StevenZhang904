@@ -30,4 +30,5 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 #
 #     mix phx.gen.cert
 #
-# Note that this task requires Erlang/OTP 20 or lat
+# Note that this task requires Erlang/OTP 20 or later.
+# Run `mix help phx.gen.cert` for more infor
