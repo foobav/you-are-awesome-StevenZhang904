@@ -33,4 +33,7 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 # Note that this task requires Erlang/OTP 20 or later.
 # Run `mix help phx.gen.cert` for more information.
 #
-# The `http:` config above can b
+# The `http:` config above can be replaced with:
+#
+#     https: [
+#       p
