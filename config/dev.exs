@@ -24,4 +24,5 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 
 # ## SSL Support
 #
-# In or
+# In order to use HTTPS in development, a self-signed
+# c
