@@ -39,4 +39,4 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 #       port: 4001,
 #       cipher_suite: :strong,
 #       keyfile: "priv/cert/selfsigned_key.pem",
-#  
+#       certfile: "priv/cert/selfsigned.pe
