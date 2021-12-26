@@ -43,4 +43,5 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 #     ],
 #
 # If desired, both `http:` and `https:` keys can be
-# configured to run both h
+# configured to run both http and https servers on
+# different 
