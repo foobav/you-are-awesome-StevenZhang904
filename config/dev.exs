@@ -42,4 +42,5 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 #       certfile: "priv/cert/selfsigned.pem"
 #     ],
 #
-# If desired, both `http:` and
+# If desired, both `http:` and `https:` keys can be
+# configured to run both h
