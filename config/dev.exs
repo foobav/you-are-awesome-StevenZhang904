@@ -47,4 +47,4 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 # different ports.
 
 # Do not include metadata nor timestamps in development logs
-co
+config :logger, :console, format: "[$level] $message
