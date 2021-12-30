@@ -49,4 +49,5 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 # Do not include metadata nor timestamps in development logs
 config :logger, :console, format: "[$level] $message\n"
 
-# Set a higher stacktrace durin
+# Set a higher stacktrace during development. Avoid configuring such
+# i
