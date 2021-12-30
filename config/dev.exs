@@ -50,4 +50,4 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 config :logger, :console, format: "[$level] $message\n"
 
 # Set a higher stacktrace during development. Avoid configuring such
-# i
+# in production as building larg
