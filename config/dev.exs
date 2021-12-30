@@ -46,4 +46,5 @@ config :study_reminder, StudyReminderWeb.Endpoint,
 # configured to run both http and https servers on
 # different ports.
 
-# Do not include metadata
+# Do not include metadata nor timestamps in development logs
+co
