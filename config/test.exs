@@ -4,4 +4,5 @@ use Mix.Config
 config :study_reminder, StudyReminder.Repo,
   username: "dev",
   password: "dev123",
-  datab
+  database: "study_reminder_test",
+  hostname: "localh
