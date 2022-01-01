@@ -1,4 +1,5 @@
 use Mix.Config
 
 # Configure your database
-con
+config :study_reminder, StudyReminder.Repo,
+ 
