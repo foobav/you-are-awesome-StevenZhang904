@@ -1,1 +1,4 @@
-use Mix.C
+use Mix.Config
+
+# Configure your database
+con
