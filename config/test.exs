@@ -12,4 +12,6 @@ config :study_reminder, StudyReminder.Repo,
 # you can enable the server option below.
 config :study_reminder, StudyReminderWeb.Endpoint,
   http: [port: 4002],
-  s
+  server: false
+
+# Print only warnings and er
