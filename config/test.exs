@@ -8,4 +8,4 @@ config :study_reminder, StudyReminder.Repo,
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 
-# We don'
+# We don't run a server during test. If one is r
