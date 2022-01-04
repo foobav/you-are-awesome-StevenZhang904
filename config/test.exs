@@ -15,4 +15,4 @@ config :study_reminder, StudyReminderWeb.Endpoint,
   server: false
 
 # Print only warnings and errors during test
-config :logger, level: :wa
+config :logger, level: :warn
