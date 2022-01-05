@@ -5,4 +5,6 @@ defmodule StudyReminder.Accounts.User do
   schema "users" do
     field :email, :string
     field :encrypted_password, :string
-    field :pa
+    field :password, :string, virtual: true
+
+    ti
