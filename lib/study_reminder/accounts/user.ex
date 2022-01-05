@@ -3,4 +3,5 @@ defmodule StudyReminder.Accounts.User do
   import Ecto.Changeset
 
   schema "users" do
-    
+    field :email, :string
+    field :
