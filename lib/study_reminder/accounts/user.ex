@@ -11,3 +11,6 @@ defmodule StudyReminder.Accounts.User do
   end
 
   @doc false
+  def changeset(user, attrs) do
+    user
+    |> cast
