@@ -15,4 +15,5 @@ defmodule StudyReminder.Accounts.User do
     user
     |> cast(attrs, [:email, :password])
     |> validate_required([:email, :password])
-    |> validate_format(:email, ~r/^[A-Za-z0-9._-]+@[A-Za-z0-9.-]
+    |> validate_format(:email, ~r/^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/)
+    |> validate_leng
