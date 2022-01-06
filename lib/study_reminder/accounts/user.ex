@@ -7,4 +7,7 @@ defmodule StudyReminder.Accounts.User do
     field :encrypted_password, :string
     field :password, :string, virtual: true
 
-    ti
+    timestamps()
+  end
+
+  @doc false
