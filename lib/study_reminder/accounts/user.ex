@@ -13,4 +13,5 @@ defmodule StudyReminder.Accounts.User do
   @doc false
   def changeset(user, attrs) do
     user
-    |> cast
+    |> cast(attrs, [:email, :password])
+    |> validate_requi
