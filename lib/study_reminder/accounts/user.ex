@@ -21,4 +21,6 @@ defmodule StudyReminder.Accounts.User do
     |> put_hashed_password
   end
 
-  defp put_hashed_password(changeset
+  defp put_hashed_password(changeset) do
+    case changeset do
+      %Ecto.Change
