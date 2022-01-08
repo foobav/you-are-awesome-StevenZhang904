@@ -18,4 +18,7 @@ defmodule StudyReminder.Accounts.User do
     |> validate_format(:email, ~r/^[A-Za-z0-9._-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/)
     |> validate_length(:password, min: 6)
     |> unique_constraint(:email)
-    |> put_hashed_passwor
+    |> put_hashed_password
+  end
+
+  defp put_hashed_password(changeset
