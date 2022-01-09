@@ -25,4 +25,6 @@ defmodule StudyReminder.Accounts.User do
     case changeset do
       %Ecto.Changeset{valid?: true, changes: %{password: password}}
         ->
-          put_change(changeset, :encrypted_password, Comeonin.Bcryp
+          put_change(changeset, :encrypted_password, Comeonin.Bcrypt.hashpwsalt(password))
+      _ ->
+        
