@@ -23,4 +23,6 @@ defmodule StudyReminder.Accounts.User do
 
   defp put_hashed_password(changeset) do
     case changeset do
-      %Ecto.Changeset{valid?: true, changes: %{password: p
+      %Ecto.Changeset{valid?: true, changes: %{password: password}}
+        ->
+          put_change(changeset,
