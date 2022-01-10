@@ -27,4 +27,7 @@ defmodule StudyReminder.Accounts.User do
         ->
           put_change(changeset, :encrypted_password, Comeonin.Bcrypt.hashpwsalt(password))
       _ ->
-        
+          changeset
+    end
+  end
+end
