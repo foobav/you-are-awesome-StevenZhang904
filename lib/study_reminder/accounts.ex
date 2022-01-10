@@ -6,4 +6,9 @@ defmodule StudyReminder.Accounts do
   import Ecto.Query, warn: false
   alias StudyReminder.Repo
 
-  alias StudyReminder.
+  alias StudyReminder.Accounts.User
+
+  @doc """
+  Returns the list of users.
+
+  
