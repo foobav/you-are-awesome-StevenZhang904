@@ -18,4 +18,10 @@ defmodule StudyReminder.Accounts do
 
   """
   def list_users do
-    Repo.all
+    Repo.all(User)
+  end
+
+  @doc """
+  Gets a single user.
+
+  Ra
