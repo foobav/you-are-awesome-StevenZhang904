@@ -11,4 +11,7 @@ defmodule StudyReminder.Accounts do
   @doc """
   Returns the list of users.
 
-  
+  ## Examples
+
+      iex> list_users()
+      [
