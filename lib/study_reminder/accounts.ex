@@ -14,4 +14,8 @@ defmodule StudyReminder.Accounts do
   ## Examples
 
       iex> list_users()
-      [
+      [%User{}, ...]
+
+  """
+  def list_users do
+    Repo.all
