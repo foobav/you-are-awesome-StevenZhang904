@@ -37,4 +37,9 @@ defmodule StudyReminder.Accounts do
   """
   def get_user!(id), do: Repo.get!(User, id)
 
-  @doc ""
+  @doc """
+  Creates a user.
+
+  ## Examples
+
+      
