@@ -32,3 +32,7 @@ defmodule StudyReminder.Accounts do
       %User{}
 
       iex> get_user!(456)
+      ** (Ecto.NoResultsError)
+
+  """
+  de
