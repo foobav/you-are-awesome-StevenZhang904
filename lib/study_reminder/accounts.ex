@@ -28,4 +28,7 @@ defmodule StudyReminder.Accounts do
 
   ## Examples
 
-      iex> get_user!(
+      iex> get_user!(123)
+      %User{}
+
+      iex> get_user!(456)
