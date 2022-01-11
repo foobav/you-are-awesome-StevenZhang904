@@ -35,4 +35,6 @@ defmodule StudyReminder.Accounts do
       ** (Ecto.NoResultsError)
 
   """
-  de
+  def get_user!(id), do: Repo.get!(User, id)
+
+  @doc ""
