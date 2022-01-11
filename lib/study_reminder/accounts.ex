@@ -24,4 +24,4 @@ defmodule StudyReminder.Accounts do
   @doc """
   Gets a single user.
 
-  Ra
+  Raises `Ecto.NoResultsError` if the User does not e
