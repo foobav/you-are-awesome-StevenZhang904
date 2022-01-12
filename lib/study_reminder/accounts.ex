@@ -43,4 +43,6 @@ defmodule StudyReminder.Accounts do
   ## Examples
 
       iex> create_user(%{field: value})
-   
+      {:ok, %User{}}
+
+      iex> create_user(%{field
