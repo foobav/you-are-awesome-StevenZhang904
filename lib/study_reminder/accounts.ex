@@ -45,4 +45,5 @@ defmodule StudyReminder.Accounts do
       iex> create_user(%{field: value})
       {:ok, %User{}}
 
-      iex> create_user(%{field
+      iex> create_user(%{field: bad_value})
+      {:error, %Ecto.Chang
