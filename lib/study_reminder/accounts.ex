@@ -58,4 +58,6 @@ defmodule StudyReminder.Accounts do
   @doc """
   Updates a user.
 
-  ## 
+  ## Examples
+
+      iex> update_user(user, %{field: new_value}
