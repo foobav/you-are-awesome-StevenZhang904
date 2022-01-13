@@ -52,4 +52,10 @@ defmodule StudyReminder.Accounts do
   def create_user(attrs \\ %{}) do
     %User{}
     |> User.changeset(attrs)
-    |> Repo
+    |> Repo.insert()
+  end
+
+  @doc """
+  Updates a user.
+
+  ## 
