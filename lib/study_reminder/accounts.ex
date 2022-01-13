@@ -50,4 +50,6 @@ defmodule StudyReminder.Accounts do
 
   """
   def create_user(attrs \\ %{}) do
-    %Us
+    %User{}
+    |> User.changeset(attrs)
+    |> Repo
