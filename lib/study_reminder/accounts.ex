@@ -60,4 +60,7 @@ defmodule StudyReminder.Accounts do
 
   ## Examples
 
-      iex> update_user(user, %{field: new_value}
+      iex> update_user(user, %{field: new_value})
+      {:ok, %User{}}
+
+      iex> update_user(user, 
