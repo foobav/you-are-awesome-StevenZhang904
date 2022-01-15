@@ -63,4 +63,5 @@ defmodule StudyReminder.Accounts do
       iex> update_user(user, %{field: new_value})
       {:ok, %User{}}
 
-      iex> update_user(user, 
+      iex> update_user(user, %{field: bad_value})
+      {:error, %Ect
