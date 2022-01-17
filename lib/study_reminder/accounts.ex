@@ -75,3 +75,7 @@ defmodule StudyReminder.Accounts do
 
   @doc """
   Deletes a User.
+
+  ## Examples
+
+      iex> delete_user
