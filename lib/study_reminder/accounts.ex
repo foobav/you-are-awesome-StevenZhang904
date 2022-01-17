@@ -67,4 +67,6 @@ defmodule StudyReminder.Accounts do
       {:error, %Ecto.Changeset{}}
 
   """
-  def update_user(%Use
+  def update_user(%User{} = user, attrs) do
+    user
+    |> User.
