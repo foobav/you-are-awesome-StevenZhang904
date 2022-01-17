@@ -69,4 +69,5 @@ defmodule StudyReminder.Accounts do
   """
   def update_user(%User{} = user, attrs) do
     user
-    |> User.
+    |> User.changeset(attrs)
+    |> Repo.update
