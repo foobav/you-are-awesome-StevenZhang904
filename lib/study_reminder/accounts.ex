@@ -78,4 +78,7 @@ defmodule StudyReminder.Accounts do
 
   ## Examples
 
-      iex> delete_user
+      iex> delete_user(user)
+      {:ok, %User{}}
+
+      iex
