@@ -81,4 +81,5 @@ defmodule StudyReminder.Accounts do
       iex> delete_user(user)
       {:ok, %User{}}
 
-      iex
+      iex> delete_user(user)
+      {:error, %Ecto.C
