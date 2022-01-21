@@ -90,4 +90,6 @@ defmodule StudyReminder.Accounts do
   end
 
   @doc """
-  Returns an `%Ecto.Changeset{}` for
+  Returns an `%Ecto.Changeset{}` for tracking user changes.
+
+  ## Examp
