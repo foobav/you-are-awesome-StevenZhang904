@@ -92,4 +92,7 @@ defmodule StudyReminder.Accounts do
   @doc """
   Returns an `%Ecto.Changeset{}` for tracking user changes.
 
-  ## Examp
+  ## Examples
+
+      iex> change_user(user)
+      %Ecto.C
