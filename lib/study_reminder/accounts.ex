@@ -85,4 +85,5 @@ defmodule StudyReminder.Accounts do
       {:error, %Ecto.Changeset{}}
 
   """
-  def delete_user(
+  def delete_user(%User{} = user) do
+    Repo.delete(user)
