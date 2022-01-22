@@ -95,4 +95,7 @@ defmodule StudyReminder.Accounts do
   ## Examples
 
       iex> change_user(user)
-      %Ecto.C
+      %Ecto.Changeset{source: %User{}}
+
+  """
+  def change_user(
