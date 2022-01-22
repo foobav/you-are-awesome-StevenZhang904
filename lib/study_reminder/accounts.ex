@@ -98,4 +98,6 @@ defmodule StudyReminder.Accounts do
       %Ecto.Changeset{source: %User{}}
 
   """
-  def change_user(
+  def change_user(%User{} = user) do
+    User.changeset(user, %{})
+ 
