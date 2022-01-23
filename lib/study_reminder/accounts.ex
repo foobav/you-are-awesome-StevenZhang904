@@ -106,4 +106,6 @@ defmodule StudyReminder.Accounts do
 
 def get_by_email(email) do
   case Repo.get_by(User, email: email) do
-  
+    nil ->
+      {:error, :not_found}
+    user 
