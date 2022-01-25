@@ -1,4 +1,8 @@
 defmodule StudyReminder.Application do
   # See https://hexdocs.pm/elixir/Application.html
   # for more information on OTP Applications
-  @mo
+  @moduledoc false
+
+  use Application
+
+  de
