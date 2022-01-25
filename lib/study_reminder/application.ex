@@ -1,2 +1,3 @@
 defmodule StudyReminder.Application do
-  # Se
+  # See https://hexdocs.pm/elixir/Application.html
+  
