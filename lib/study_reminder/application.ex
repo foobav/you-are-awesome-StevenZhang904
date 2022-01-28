@@ -9,4 +9,5 @@ defmodule StudyReminder.Application do
     # List all child processes to be supervised
     children = [
       # Start the Ecto repository
-      
+      StudyReminder.Repo,
+      # Start the endpoint w
