@@ -10,4 +10,5 @@ defmodule StudyReminder.Application do
     children = [
       # Start the Ecto repository
       StudyReminder.Repo,
-      # Start the endpoint w
+      # Start the endpoint when the application starts
+      
