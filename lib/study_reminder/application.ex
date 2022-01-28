@@ -11,4 +11,5 @@ defmodule StudyReminder.Application do
       # Start the Ecto repository
       StudyReminder.Repo,
       # Start the endpoint when the application starts
-      
+      StudyReminderWeb.Endpoint
+      # Starts a w
