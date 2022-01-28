@@ -5,4 +5,5 @@ defmodule StudyReminder.Application do
 
   use Application
 
-  de
+  def start(_type, _args) do
+    # List all child p
