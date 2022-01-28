@@ -6,4 +6,5 @@ defmodule StudyReminder.Application do
   use Application
 
   def start(_type, _args) do
-    # List all child p
+    # List all child processes to be supervised
+    children 
