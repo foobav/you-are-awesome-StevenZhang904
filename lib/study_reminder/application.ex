@@ -7,4 +7,6 @@ defmodule StudyReminder.Application do
 
   def start(_type, _args) do
     # List all child processes to be supervised
-    children 
+    children = [
+      # Start the Ecto repository
+      
