@@ -16,4 +16,5 @@ defmodule StudyReminder.Application do
       # {StudyReminder.Worker, arg},
     ]
 
-    # See https://hexdocs.pm/el
+    # See https://hexdocs.pm/elixir/Supervisor.html
+    # for other strate
