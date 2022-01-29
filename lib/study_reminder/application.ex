@@ -12,4 +12,4 @@ defmodule StudyReminder.Application do
       StudyReminder.Repo,
       # Start the endpoint when the application starts
       StudyReminderWeb.Endpoint
-      # Starts a w
+      # Starts a worker by calling: StudyReminder.Worker.st
