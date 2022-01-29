@@ -12,4 +12,5 @@ defmodule StudyReminder.Application do
       StudyReminder.Repo,
       # Start the endpoint when the application starts
       StudyReminderWeb.Endpoint
-      # Starts a worker by calling: StudyReminder.Worker.st
+      # Starts a worker by calling: StudyReminder.Worker.start_link(arg)
+      # {StudyReminder.Worker, arg}
