@@ -17,4 +17,5 @@ defmodule StudyReminder.Application do
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
-    # for other strate
+    # for other strategies and supported options
+    opts = [strat
