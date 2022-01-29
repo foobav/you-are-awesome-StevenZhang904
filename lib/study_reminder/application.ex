@@ -18,4 +18,4 @@ defmodule StudyReminder.Application do
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
-    opts = [strat
+    opts = [strategy: :one_for_one, name: StudyReminder.Sup
