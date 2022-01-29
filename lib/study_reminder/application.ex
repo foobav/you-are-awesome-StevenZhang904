@@ -22,4 +22,5 @@ defmodule StudyReminder.Application do
     Supervisor.start_link(children, opts)
   end
 
-  # Tell Phoenix to
+  # Tell Phoenix to update the endpoint configuration
+  # when
