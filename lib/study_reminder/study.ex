@@ -1,3 +1,6 @@
 defmodule StudyReminder.Study do
   @moduledoc """
-  The Stu
+  The Study context.
+  """
+
+  import Ecto.Query, 
