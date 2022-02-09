@@ -1,3 +1,4 @@
 defmodule StudyReminder.Repo do
   use Ecto.Repo,
-    otp_app: 
+    otp_app: :study_reminder,
+    adapter: Ecto.Adapters.Postgr
