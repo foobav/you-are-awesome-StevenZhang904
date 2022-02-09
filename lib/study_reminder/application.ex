@@ -24,4 +24,4 @@ defmodule StudyReminder.Application do
 
   # Tell Phoenix to update the endpoint configuration
   # whenever the application is updated.
-  def 
+  def config_change(changed, _new, removed)
