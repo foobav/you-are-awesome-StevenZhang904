@@ -9,4 +9,8 @@ defmodule StudyReminder.Study do
   alias StudyReminder.Study.Reminder
 
   @doc """
-  Retur
+  Returns the list of reminders.
+
+  ## Examples
+
+      i
