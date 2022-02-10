@@ -6,4 +6,7 @@ defmodule StudyReminder.Study do
   import Ecto.Query, warn: false
   alias StudyReminder.Repo
 
-  alias Stu
+  alias StudyReminder.Study.Reminder
+
+  @doc """
+  Retur
