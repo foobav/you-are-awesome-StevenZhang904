@@ -3,4 +3,7 @@ defmodule StudyReminder.Study do
   The Study context.
   """
 
-  import Ecto.Query, 
+  import Ecto.Query, warn: false
+  alias StudyReminder.Repo
+
+  alias Stu
