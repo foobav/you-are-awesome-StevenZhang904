@@ -13,4 +13,5 @@ defmodule StudyReminder.Study do
 
   ## Examples
 
-      i
+      iex> list_reminders()
+      [%Reminder{}, ...]
