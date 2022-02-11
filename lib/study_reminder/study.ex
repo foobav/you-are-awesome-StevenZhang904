@@ -18,4 +18,8 @@ defmodule StudyReminder.Study do
 
   """
   def list_reminders do
-    Repo.al
+    Repo.all(Reminder)
+  end
+
+  @doc """
+  Gets a single
