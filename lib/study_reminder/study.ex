@@ -15,3 +15,7 @@ defmodule StudyReminder.Study do
 
       iex> list_reminders()
       [%Reminder{}, ...]
+
+  """
+  def list_reminders do
+    Repo.al
