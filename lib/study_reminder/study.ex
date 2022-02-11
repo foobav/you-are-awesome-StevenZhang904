@@ -22,4 +22,6 @@ defmodule StudyReminder.Study do
   end
 
   @doc """
-  Gets a single
+  Gets a single reminder.
+
+  Raises `Ecto.NoResultsE
