@@ -26,4 +26,7 @@ defmodule StudyReminder.Study do
 
   Raises `Ecto.NoResultsError` if the Reminder does not exist.
 
-  ##
+  ## Examples
+
+      iex> get_reminder!(123)
+   
