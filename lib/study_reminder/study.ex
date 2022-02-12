@@ -24,4 +24,6 @@ defmodule StudyReminder.Study do
   @doc """
   Gets a single reminder.
 
-  Raises `Ecto.NoResultsE
+  Raises `Ecto.NoResultsError` if the Reminder does not exist.
+
+  ##
