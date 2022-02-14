@@ -35,4 +35,7 @@ defmodule StudyReminder.Study do
       ** (Ecto.NoResultsError)
 
   """
-  def get_rem
+  def get_reminder!(id), do: Repo.get!(Reminder, id)
+
+  @doc """
+  Creates
