@@ -29,4 +29,6 @@ defmodule StudyReminder.Study do
   ## Examples
 
       iex> get_reminder!(123)
-   
+      %Reminder{}
+
+      iex> get_reminde
