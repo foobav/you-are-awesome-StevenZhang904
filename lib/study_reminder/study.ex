@@ -31,4 +31,8 @@ defmodule StudyReminder.Study do
       iex> get_reminder!(123)
       %Reminder{}
 
-      iex> get_reminde
+      iex> get_reminder!(456)
+      ** (Ecto.NoResultsError)
+
+  """
+  def get_rem
