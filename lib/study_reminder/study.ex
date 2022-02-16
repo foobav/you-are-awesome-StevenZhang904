@@ -42,4 +42,5 @@ defmodule StudyReminder.Study do
 
   ## Examples
 
-      iex> cr
+      iex> create_reminder(%{field: value})
+      {:
