@@ -38,4 +38,8 @@ defmodule StudyReminder.Study do
   def get_reminder!(id), do: Repo.get!(Reminder, id)
 
   @doc """
-  Creates
+  Creates a reminder.
+
+  ## Examples
+
+      iex> cr
