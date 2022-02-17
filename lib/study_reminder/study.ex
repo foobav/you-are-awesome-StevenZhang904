@@ -43,4 +43,6 @@ defmodule StudyReminder.Study do
   ## Examples
 
       iex> create_reminder(%{field: value})
-      {:
+      {:ok, %Reminder{}}
+
+      iex> create_reminder
