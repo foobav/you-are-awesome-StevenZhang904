@@ -57,4 +57,8 @@ defmodule StudyReminder.Study do
   end
 
   @doc """
-  Updates a rem
+  Updates a reminder.
+
+  ## Examples
+
+      iex> updat
