@@ -61,4 +61,5 @@ defmodule StudyReminder.Study do
 
   ## Examples
 
-      iex> updat
+      iex> update_reminder(reminder, %{field: new_value})
+      {
