@@ -46,4 +46,7 @@ defmodule StudyReminder.Study do
       {:ok, %Reminder{}}
 
       iex> create_reminder(%{field: bad_value})
-      {:error
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def cr
