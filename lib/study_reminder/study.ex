@@ -45,4 +45,5 @@ defmodule StudyReminder.Study do
       iex> create_reminder(%{field: value})
       {:ok, %Reminder{}}
 
-      iex> create_reminder
+      iex> create_reminder(%{field: bad_value})
+      {:error
