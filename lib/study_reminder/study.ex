@@ -53,4 +53,8 @@ defmodule StudyReminder.Study do
     %Reminder{}
     |> Reminder.changeset(attrs)
     |> Ecto.Changeset.put_assoc(:user, user)
-    |> Repo.
+    |> Repo.insert()
+  end
+
+  @doc """
+  Updates a rem
