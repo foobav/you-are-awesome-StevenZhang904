@@ -49,4 +49,6 @@ defmodule StudyReminder.Study do
       {:error, %Ecto.Changeset{}}
 
   """
-  def cr
+  def create_reminder(user, attrs \\ %{}) do
+    %Reminder{}
+  
