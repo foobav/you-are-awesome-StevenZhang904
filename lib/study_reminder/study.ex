@@ -51,4 +51,5 @@ defmodule StudyReminder.Study do
   """
   def create_reminder(user, attrs \\ %{}) do
     %Reminder{}
-  
+    |> Reminder.changeset(attrs)
+    |> Ecto.
