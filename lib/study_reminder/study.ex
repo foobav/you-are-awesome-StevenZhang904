@@ -68,4 +68,4 @@ defmodule StudyReminder.Study do
       {:error, %Ecto.Changeset{}}
 
   """
-  def update_re
+  def update_reminder(user, %Reminder{} = reminde
