@@ -81,4 +81,5 @@ defmodule StudyReminder.Study do
 
   ## Examples
 
-     
+      iex> delete_reminder(reminder)
+      
