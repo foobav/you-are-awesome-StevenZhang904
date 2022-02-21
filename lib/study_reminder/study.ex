@@ -70,4 +70,5 @@ defmodule StudyReminder.Study do
   """
   def update_reminder(user, %Reminder{} = reminder, attrs) do
     reminder
-    |> Repo.pre
+    |> Repo.preload(:user, force: true)
+    |> Reminder.changeset
