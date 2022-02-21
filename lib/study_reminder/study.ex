@@ -71,4 +71,5 @@ defmodule StudyReminder.Study do
   def update_reminder(user, %Reminder{} = reminder, attrs) do
     reminder
     |> Repo.preload(:user, force: true)
-    |> Reminder.changeset
+    |> Reminder.changeset(attrs)
+    |> Ecto.Changeset.put_asso
