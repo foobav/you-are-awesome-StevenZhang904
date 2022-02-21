@@ -90,4 +90,7 @@ defmodule StudyReminder.Study do
   """
   def delete_reminder(%Reminder{} = reminder) do
     Repo.delete(reminder)
-  en
+  end
+
+  @doc """
+  Returns an `%Ecto.Change
