@@ -76,4 +76,9 @@ defmodule StudyReminder.Study do
     |> Repo.update()
   end
 
-  @doc
+  @doc """
+  Deletes a Reminder.
+
+  ## Examples
+
+     
