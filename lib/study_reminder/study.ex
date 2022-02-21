@@ -88,4 +88,6 @@ defmodule StudyReminder.Study do
       {:error, %Ecto.Changeset{}}
 
   """
-  def delete_reminder(%Reminder
+  def delete_reminder(%Reminder{} = reminder) do
+    Repo.delete(reminder)
+  en
