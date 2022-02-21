@@ -85,4 +85,7 @@ defmodule StudyReminder.Study do
       {:ok, %Reminder{}}
 
       iex> delete_reminder(reminder)
-      {:error, %Ecto.Changese
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def delete_reminder(%Reminder
