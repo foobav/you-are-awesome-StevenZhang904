@@ -94,3 +94,7 @@ defmodule StudyReminder.Study do
 
   @doc """
   Returns an `%Ecto.Changeset{}` for tracking reminder changes.
+
+  ## Examples
+
+      iex> change_reminder(
