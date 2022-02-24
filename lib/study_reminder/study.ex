@@ -97,4 +97,5 @@ defmodule StudyReminder.Study do
 
   ## Examples
 
-      iex> change_reminder(
+      iex> change_reminder(reminder)
+      %Ecto.Changeset{source: %Reminder{
