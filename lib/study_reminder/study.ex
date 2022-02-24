@@ -93,4 +93,4 @@ defmodule StudyReminder.Study do
   end
 
   @doc """
-  Returns an `%Ecto.Change
+  Returns an `%Ecto.Changeset{}` for tracking reminder changes.
