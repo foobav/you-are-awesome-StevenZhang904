@@ -1,3 +1,3 @@
 defmodule StudyReminderWeb.Authentication.CurrentUser do
     @moduledoc """
-    Load user fr
+    Load user from database by token and put on con
