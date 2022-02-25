@@ -98,4 +98,7 @@ defmodule StudyReminder.Study do
   ## Examples
 
       iex> change_reminder(reminder)
-      %Ecto.Changeset{source: %Reminder{
+      %Ecto.Changeset{source: %Reminder{}}
+
+  """
+  def change_reminder(%Reminder{} 
