@@ -101,4 +101,5 @@ defmodule StudyReminder.Study do
       %Ecto.Changeset{source: %Reminder{}}
 
   """
-  def change_reminder(%Reminder{} 
+  def change_reminder(%Reminder{} = reminder) do
+    Reminder.changeset(reminde
