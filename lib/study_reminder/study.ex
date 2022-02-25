@@ -102,4 +102,6 @@ defmodule StudyReminder.Study do
 
   """
   def change_reminder(%Reminder{} = reminder) do
-    Reminder.changeset(reminde
+    Reminder.changeset(reminder, %{})
+  end
+end
