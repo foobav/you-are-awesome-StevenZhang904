@@ -5,4 +5,5 @@ defmodule StudyReminderWeb.Authentication.CurrentUser do
     def init(_opts), do: :ok
   
     def call(conn, _opts) do
-      current_user = Guardian.Plug.curre
+      current_user = Guardian.Plug.current_resource(conn)
+      Plug.Conn.assign
