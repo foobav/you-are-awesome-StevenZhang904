@@ -1,2 +1,4 @@
 defmodule StudyReminderWeb.Authentication.ErrorHandler do
-    imp
+    import Plug.Conn
+  
+    def auth_error(conn, {type, _r
