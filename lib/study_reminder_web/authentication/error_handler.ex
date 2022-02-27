@@ -1,1 +1,2 @@
-defmodule StudyReminder
+defmodule StudyReminderWeb.Authentication.ErrorHandler do
+    imp
