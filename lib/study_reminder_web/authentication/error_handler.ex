@@ -5,4 +5,6 @@ defmodule StudyReminderWeb.Authentication.ErrorHandler do
       body = Poison.encode!(%{error: to_string(type)})
       conn
       |> put_resp_content_type("application/json")
-      |> send_resp(401
+      |> send_resp(401, body)
+    end
+  end
