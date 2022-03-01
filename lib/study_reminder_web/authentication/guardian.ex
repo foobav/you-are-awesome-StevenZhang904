@@ -1,1 +1,1 @@
-defmodule Stud
+defmodule StudyReminderWeb.Authentication.Guardian 
