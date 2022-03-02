@@ -10,4 +10,5 @@ defmodule StudyReminderWeb.Authentication.Guardian do
   
     def resource_from_claims(claims) do
       id = claims["sub"]
-      resourc
+      resource = Accounts.get_user!(id)
+      {:ok,  resource
