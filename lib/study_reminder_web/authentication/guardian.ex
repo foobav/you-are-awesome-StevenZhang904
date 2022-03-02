@@ -6,4 +6,7 @@ defmodule StudyReminderWeb.Authentication.Guardian do
     def subject_for_token(user, _claims) do
       sub = to_string(user.id)
       {:ok, sub}
-    e
+    end
+  
+    def resource_from_claims(claims) do
+ 
