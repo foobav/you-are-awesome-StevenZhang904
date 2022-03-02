@@ -4,4 +4,6 @@ defmodule StudyReminderWeb.Authentication.Guardian do
     alias StudyReminder.Accounts
   
     def subject_for_token(user, _claims) do
-      sub = 
+      sub = to_string(user.id)
+      {:ok, sub}
+    e
