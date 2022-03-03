@@ -15,4 +15,4 @@ defmodule StudyReminderWeb.Authentication.Guardian do
     end
 
     def authenticate(email, password) do
- 
+      with {:ok, user} <- Accounts.get_by_email(e
