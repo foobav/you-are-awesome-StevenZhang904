@@ -17,4 +17,5 @@ defmodule StudyReminderWeb.Authentication.Guardian do
     def authenticate(email, password) do
       with {:ok, user} <- Accounts.get_by_email(email) do
         case validate_password(password, user.encrypted_password) do
-        
+          true ->
+            create_token(user)
