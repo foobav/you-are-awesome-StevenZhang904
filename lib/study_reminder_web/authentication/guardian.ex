@@ -20,4 +20,9 @@ defmodule StudyReminderWeb.Authentication.Guardian do
           true ->
             create_token(user)
           false ->
-            {:error, :una
+            {:error, :unauthorized}
+        end
+      end
+    end
+  
+  
