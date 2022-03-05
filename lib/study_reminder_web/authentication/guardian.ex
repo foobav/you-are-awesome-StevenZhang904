@@ -25,4 +25,4 @@ defmodule StudyReminderWeb.Authentication.Guardian do
       end
     end
   
-  
+    defp validate_password(password, encrypted
