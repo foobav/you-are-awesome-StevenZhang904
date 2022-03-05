@@ -26,4 +26,7 @@ defmodule StudyReminderWeb.Authentication.Guardian do
     end
   
     defp validate_password(password, encrypted_password) do
-      Comeonin.Bcrypt.che
+      Comeonin.Bcrypt.checkpw(password, encrypted_password)
+    end
+  
+  
