@@ -29,4 +29,5 @@ defmodule StudyReminderWeb.Authentication.Guardian do
       Comeonin.Bcrypt.checkpw(password, encrypted_password)
     end
   
-  
+    defp create_token(user) do
+    
