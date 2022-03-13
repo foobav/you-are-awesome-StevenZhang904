@@ -1,1 +1,2 @@
-defmodule StudyReminderWeb.Authentication.Pipeli
+defmodule StudyReminderWeb.Authentication.Pipeline do
+    use Guardian.Plug.Pipeline, otp_
