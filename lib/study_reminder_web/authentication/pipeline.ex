@@ -4,4 +4,5 @@ defmodule StudyReminderWeb.Authentication.Pipeline do
       error_handler: StudyReminderWeb.Authentication.ErrorHandler
   
     plug Guardian.Plug.VerifyHeader
-    plug Guardian.Plug.EnsureAuthe
+    plug Guardian.Plug.EnsureAuthenticated
+    plug Guardian.Plug.LoadRe
