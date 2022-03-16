@@ -5,4 +5,5 @@ defmodule StudyReminderWeb.Authentication.Pipeline do
   
     plug Guardian.Plug.VerifyHeader
     plug Guardian.Plug.EnsureAuthenticated
-    plug Guardian.Plug.LoadRe
+    plug Guardian.Plug.LoadResource
+    plug StudyReminderWeb.Authenticat
