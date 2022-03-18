@@ -4,4 +4,5 @@ defmodule StudyReminderWeb.UserSocket do
   ## Channels
   # channel "room:*", StudyReminderWeb.RoomChannel
 
-  # Socket params are
+  # Socket params are passed from the client and can
+  # 
