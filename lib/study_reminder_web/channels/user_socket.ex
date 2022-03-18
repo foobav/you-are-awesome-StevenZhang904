@@ -1,4 +1,5 @@
 defmodule StudyReminderWeb.UserSocket do
   use Phoenix.Socket
 
-  ## C
+  ## Channels
+  # channel "room:*", StudyReminder
