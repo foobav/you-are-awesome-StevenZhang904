@@ -19,4 +19,4 @@ defmodule StudyReminderWeb.UserSocket do
     {:ok, socket}
   end
 
-  # Socket 
+  # Socket id's are topics that allow you to identify all sock
