@@ -11,4 +11,6 @@ defmodule StudyReminderWeb.UserSocket do
   #
   #     {:ok, assign(socket, :user_id, verified_user_id)}
   #
-  # To
+  # To deny connection, return `:error`.
+  #
+  # S
