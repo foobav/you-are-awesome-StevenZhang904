@@ -14,4 +14,5 @@ defmodule StudyReminderWeb.UserSocket do
   # To deny connection, return `:error`.
   #
   # See `Phoenix.Token` documentation for examples in
-  
+  # performing token verification on connect.
+  def 
