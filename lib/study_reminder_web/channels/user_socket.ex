@@ -15,4 +15,4 @@ defmodule StudyReminderWeb.UserSocket do
   #
   # See `Phoenix.Token` documentation for examples in
   # performing token verification on connect.
-  def 
+  def connect(_params, socket, _connect_inf
