@@ -9,4 +9,6 @@ defmodule StudyReminderWeb.UserSocket do
   # verification, you can put default assigns into
   # the socket that will be set for all channels, ie
   #
-  #     {:ok, assig
+  #     {:ok, assign(socket, :user_id, verified_user_id)}
+  #
+  # To
