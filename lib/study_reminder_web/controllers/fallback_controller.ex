@@ -1,1 +1,3 @@
-defmodule StudyReminderWeb.FallbackController d
+defmodule StudyReminderWeb.FallbackController do
+  @moduledoc """
+  Translates controll
