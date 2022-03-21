@@ -25,3 +25,5 @@ defmodule StudyReminderWeb.UserSocket do
   #
   # Would allow you to broadcast a "disconnect" event and terminate
   # all active sockets and channels for a given user:
+  #
+  #     StudyReminderWeb.Endpoint.broa
