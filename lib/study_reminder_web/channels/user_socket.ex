@@ -24,4 +24,4 @@ defmodule StudyReminderWeb.UserSocket do
   #     def id(socket), do: "user_socket:#{socket.assigns.user_id}"
   #
   # Would allow you to broadcast a "disconnect" event and terminate
-  # all active sock
+  # all active sockets and channels for a given user:
