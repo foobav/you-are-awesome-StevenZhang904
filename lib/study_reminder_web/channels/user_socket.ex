@@ -28,4 +28,6 @@ defmodule StudyReminderWeb.UserSocket do
   #
   #     StudyReminderWeb.Endpoint.broadcast("user_socket:#{user.id}", "disconnect", %{})
   #
-  # Returning `nil` makes this socket ano
+  # Returning `nil` makes this socket anonymous.
+  def id(_socket), do: nil
+end
