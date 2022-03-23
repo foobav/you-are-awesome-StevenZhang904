@@ -1,3 +1,3 @@
 defmodule StudyReminderWeb.FallbackController do
   @moduledoc """
-  Translates controll
+  Translates controller action results into valid `Plug.Conn`
