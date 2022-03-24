@@ -4,4 +4,6 @@ defmodule StudyReminderWeb.FallbackController do
 
   See `Phoenix.Controller.action_fallback/1` for more details.
   """
-  use 
+  use StudyReminderWeb, :controller
+
+  def ca
