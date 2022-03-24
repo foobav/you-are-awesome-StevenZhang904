@@ -6,4 +6,4 @@ defmodule StudyReminderWeb.FallbackController do
   """
   use StudyReminderWeb, :controller
 
-  def ca
+  def call(conn, {:error, %Ecto.Changeset{} = changeset}
