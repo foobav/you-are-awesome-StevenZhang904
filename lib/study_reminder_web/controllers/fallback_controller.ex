@@ -6,4 +6,6 @@ defmodule StudyReminderWeb.FallbackController do
   """
   use StudyReminderWeb, :controller
 
-  def call(conn, {:error, %Ecto.Changeset{} = changeset}
+  def call(conn, {:error, %Ecto.Changeset{} = changeset}) do
+    conn
+    |> put_status(:unpr
