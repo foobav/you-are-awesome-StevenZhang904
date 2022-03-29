@@ -18,3 +18,6 @@ defmodule StudyReminderWeb.FallbackController do
     |> put_status(:not_found)
     |> put_view(StudyReminderWeb.ErrorView)
     |> render(:"404")
+  end
+
+  def call(conn, {:error, :u
