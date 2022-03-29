@@ -10,4 +10,7 @@ defmodule StudyReminderWeb.FallbackController do
     conn
     |> put_status(:unprocessable_entity)
     |> put_view(StudyReminderWeb.ChangesetView)
-    |> render("error.json", changes
+    |> render("error.json", changeset: changeset)
+  end
+
+  def call(conn, {:error, :
