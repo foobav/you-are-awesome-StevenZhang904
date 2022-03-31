@@ -20,4 +20,6 @@ defmodule StudyReminderWeb.FallbackController do
     |> render(:"404")
   end
 
-  def call(conn, {:error, :u
+  def call(conn, {:error, :unauthorized}) do
+    conn
+    |> put_
