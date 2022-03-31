@@ -22,4 +22,5 @@ defmodule StudyReminderWeb.FallbackController do
 
   def call(conn, {:error, :unauthorized}) do
     conn
-    |> put_
+    |> put_status(:unauthorized)
+    |> render
