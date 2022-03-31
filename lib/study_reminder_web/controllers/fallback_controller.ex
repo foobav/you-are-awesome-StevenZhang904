@@ -23,4 +23,7 @@ defmodule StudyReminderWeb.FallbackController do
   def call(conn, {:error, :unauthorized}) do
     conn
     |> put_status(:unauthorized)
-    |> render
+    |> render(StudyReminderWeb.ErrorView, :"401")
+  end
+
+end
