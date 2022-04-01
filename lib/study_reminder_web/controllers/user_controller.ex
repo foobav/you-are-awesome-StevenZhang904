@@ -3,4 +3,7 @@ defmodule StudyReminderWeb.UserController do
 
   alias StudyReminder.Accounts
   alias StudyReminder.Accounts.User
-  alias StudyReminderWe
+  alias StudyReminderWeb.Authentication.Guardian
+
+
+  action_fallbac
