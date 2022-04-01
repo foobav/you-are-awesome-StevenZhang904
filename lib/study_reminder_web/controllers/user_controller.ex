@@ -1,1 +1,4 @@
-defmodule StudyReminderWeb.UserController 
+defmodule StudyReminderWeb.UserController do
+  use StudyReminderWeb, :controller
+
+  alias
