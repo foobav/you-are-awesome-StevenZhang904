@@ -6,4 +6,5 @@ defmodule StudyReminderWeb.UserController do
   alias StudyReminderWeb.Authentication.Guardian
 
 
-  action_fallbac
+  action_fallback StudyReminderWeb.FallbackController
+
