@@ -9,4 +9,4 @@ defmodule StudyReminderWeb.UserController do
   action_fallback StudyReminderWeb.FallbackController
 
   def create(conn, user_params) do
-    with {:ok
+    with {:ok, %User{} = user} <- Accounts.create_use
