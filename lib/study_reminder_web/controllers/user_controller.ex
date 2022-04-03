@@ -12,4 +12,5 @@ defmodule StudyReminderWeb.UserController do
     with {:ok, %User{} = user} <- Accounts.create_user(user_params),
       {:ok, token, _claims} <- Guardian.encode_and_sign(user) do
         conn
-        |> put_status(:creat
+        |> put_status(:created)
+        |> render("user.json", %{user: 
