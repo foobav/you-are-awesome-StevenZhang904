@@ -23,4 +23,6 @@ defmodule StudyReminderWeb.UserController do
       |> put_status(:created)
       |> render("user.json", %{user: user, token: token})
     end
- 
+  end
+
+end
