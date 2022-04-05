@@ -17,4 +17,4 @@ defmodule StudyReminderWeb.UserController do
     end
   end
 
-  def sign
+  def signin(conn, %{"email" => email, "password" => passwor
