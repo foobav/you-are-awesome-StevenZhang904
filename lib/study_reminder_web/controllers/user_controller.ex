@@ -21,4 +21,6 @@ defmodule StudyReminderWeb.UserController do
     with {:ok, user, token} <- Guardian.authenticate(email, password) do
       conn
       |> put_status(:created)
-      |> render
+      |> render("user.json", %{user: user, token: token})
+    end
+ 
