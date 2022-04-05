@@ -17,4 +17,5 @@ defmodule StudyReminderWeb.UserController do
     end
   end
 
-  def signin(conn, %{"email" => email, "password" => passwor
+  def signin(conn, %{"email" => email, "password" => password}) do
+    with {:ok, user, token} <- Guardian.a
