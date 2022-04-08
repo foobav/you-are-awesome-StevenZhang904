@@ -3,4 +3,6 @@ defmodule StudyReminderWeb.Endpoint do
 
   socket "/socket", StudyReminderWeb.UserSocket,
     websocket: true,
-   
+    longpoll: false
+
+  # Serve at "/" the static
