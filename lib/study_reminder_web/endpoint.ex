@@ -5,4 +5,6 @@ defmodule StudyReminderWeb.Endpoint do
     websocket: true,
     longpoll: false
 
-  # Serve at "/" the static
+  # Serve at "/" the static files from "priv/static" directory.
+  #
+ 
