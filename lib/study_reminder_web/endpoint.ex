@@ -7,4 +7,5 @@ defmodule StudyReminderWeb.Endpoint do
 
   # Serve at "/" the static files from "priv/static" directory.
   #
-  # You should set gzip to true if you are runnin
+  # You should set gzip to true if you are running phx.digest
+  # when deploying your static file
