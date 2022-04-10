@@ -13,4 +13,6 @@ defmodule StudyReminderWeb.Endpoint do
     at: "/",
     from: :study_reminder,
     gzip: false,
-    only: ~w(css fonts images js favico
+    only: ~w(css fonts images js favicon.ico robots.txt)
+
+  # Code reloading can be explici
