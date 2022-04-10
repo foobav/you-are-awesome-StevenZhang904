@@ -12,4 +12,5 @@ defmodule StudyReminderWeb.Endpoint do
   plug Plug.Static,
     at: "/",
     from: :study_reminder,
-  
+    gzip: false,
+    only: ~w(css fonts images js favico
