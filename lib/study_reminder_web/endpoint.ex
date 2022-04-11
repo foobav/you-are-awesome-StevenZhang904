@@ -32,4 +32,4 @@ defmodule StudyReminderWeb.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
 
-  # The 
+  # The session will be stored in the cookie and s
