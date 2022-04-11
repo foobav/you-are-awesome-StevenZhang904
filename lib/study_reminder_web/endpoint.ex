@@ -22,4 +22,4 @@ defmodule StudyReminderWeb.Endpoint do
   end
 
   plug Plug.RequestId
-  plug Plug.Teleme
+  plug Plug.Telemetry, event_prefix: [:phoenix, :endpoint]
