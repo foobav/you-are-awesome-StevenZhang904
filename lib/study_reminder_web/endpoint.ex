@@ -25,4 +25,5 @@ defmodule StudyReminderWeb.Endpoint do
   plug Plug.Telemetry, event_prefix: [:phoenix, :endpoint]
 
   plug Plug.Parsers,
-    parsers: [:url
+    parsers: [:urlencoded, :multipart, :json],
+    
