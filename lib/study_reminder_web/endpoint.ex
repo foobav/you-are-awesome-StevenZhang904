@@ -38,4 +38,7 @@ defmodule StudyReminderWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_study_reminder_key",
-    signing_salt: "kRqqs0z
+    signing_salt: "kRqqs0zb"
+
+  plug StudyReminderWeb.Router
+end
