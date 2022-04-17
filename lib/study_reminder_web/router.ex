@@ -3,4 +3,7 @@ defmodule StudyReminderWeb.Router do
 
   pipeline :api do
     plug :accepts, ["json"]
-  
+  end
+
+  pipeline :auth do
+    plug StudyRem
