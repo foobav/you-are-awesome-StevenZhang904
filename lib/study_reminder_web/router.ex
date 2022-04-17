@@ -1,4 +1,6 @@
 defmodule StudyReminderWeb.Router do
   use StudyReminderWeb, :router
 
-  pipel
+  pipeline :api do
+    plug :accepts, ["json"]
+  
