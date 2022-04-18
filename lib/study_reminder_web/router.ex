@@ -6,4 +6,7 @@ defmodule StudyReminderWeb.Router do
   end
 
   pipeline :auth do
-    plug StudyRem
+    plug StudyReminderWeb.Authentication.Pipeline
+  end
+
+  s
