@@ -10,4 +10,6 @@ defmodule StudyReminderWeb.Router do
   end
 
   scope "/api", StudyReminderWeb do
-    pipe_t
+    pipe_through :api
+
+    post "/users/signup
