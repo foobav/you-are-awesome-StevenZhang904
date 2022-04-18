@@ -9,4 +9,5 @@ defmodule StudyReminderWeb.Router do
     plug StudyReminderWeb.Authentication.Pipeline
   end
 
-  s
+  scope "/api", StudyReminderWeb do
+    pipe_t
