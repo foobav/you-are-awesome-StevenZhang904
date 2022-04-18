@@ -12,4 +12,5 @@ defmodule StudyReminderWeb.Router do
   scope "/api", StudyReminderWeb do
     pipe_through :api
 
-    post "/users/signup
+    post "/users/signup", UserController, :create
+    post "/users/
