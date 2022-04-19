@@ -16,4 +16,5 @@ defmodule StudyReminderWeb.Router do
     post "/users/signin", UserController, :signin
   end
 
-  sc
+  scope "/api", StudyReminderWeb do
+    pipe_through 
