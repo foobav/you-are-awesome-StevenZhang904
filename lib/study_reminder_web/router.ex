@@ -13,4 +13,7 @@ defmodule StudyReminderWeb.Router do
     pipe_through :api
 
     post "/users/signup", UserController, :create
-    post "/users/
+    post "/users/signin", UserController, :signin
+  end
+
+  sc
