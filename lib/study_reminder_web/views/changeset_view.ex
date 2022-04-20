@@ -1,2 +1,5 @@
 defmodule StudyReminderWeb.ChangesetView do
-  use 
+  use StudyReminderWeb, :view
+
+  @doc """
+  Traverses and tra
