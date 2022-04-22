@@ -5,4 +5,4 @@ defmodule StudyReminderWeb.ChangesetView do
   Traverses and translates changeset errors.
 
   See `Ecto.Changeset.traverse_errors/2` and
-  `Study
+  `StudyReminderWeb.ErrorHelpers.translate_error/1` 
