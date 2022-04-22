@@ -2,4 +2,6 @@ defmodule StudyReminderWeb.ChangesetView do
   use StudyReminderWeb, :view
 
   @doc """
-  Traverses and tra
+  Traverses and translates changeset errors.
+
+  See `Ecto.C
