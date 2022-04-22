@@ -12,4 +12,5 @@ defmodule StudyReminderWeb.ChangesetView do
   end
 
   def render("error.json", %{changeset: changeset}) do
-    # When encoded, the cha
+    # When encoded, the changeset returns its errors
+    # as a
