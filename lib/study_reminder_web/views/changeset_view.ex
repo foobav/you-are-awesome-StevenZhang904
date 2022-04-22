@@ -11,4 +11,5 @@ defmodule StudyReminderWeb.ChangesetView do
     Ecto.Changeset.traverse_errors(changeset, &translate_error/1)
   end
 
-  def render("error.json", %{changeset: chang
+  def render("error.json", %{changeset: changeset}) do
+    # When encoded, the cha
