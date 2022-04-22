@@ -7,4 +7,5 @@ defmodule StudyReminderWeb.ChangesetView do
   See `Ecto.Changeset.traverse_errors/2` and
   `StudyReminderWeb.ErrorHelpers.translate_error/1` for more details.
   """
-  def translate_
+  def translate_errors(changeset) do
+    Ecto.Changeset.traverse_erro
