@@ -29,3 +29,6 @@ defmodule StudyReminderWeb.ErrorHelpers do
       Gettext.dngettext(StudyReminderWeb.Gettext, "errors", msg, msg, count, opts)
     else
       Gettext.dgettext(StudyReminderWeb.Gettext, "errors", msg, opts)
+    end
+  end
+end
