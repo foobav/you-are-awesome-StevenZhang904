@@ -7,4 +7,4 @@ defmodule StudyReminderWeb.ErrorView do
   #   %{errors: %{detail: "Internal Server Error"}}
   # end
 
-  # By default, P
+  # By default, Phoenix returns the status mess
