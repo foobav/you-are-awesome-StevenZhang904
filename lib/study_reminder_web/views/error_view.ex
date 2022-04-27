@@ -8,4 +8,5 @@ defmodule StudyReminderWeb.ErrorView do
   # end
 
   # By default, Phoenix returns the status message from
-  # the template name. For 
+  # the template name. For example, "404.json" becomes
+  # "No
