@@ -6,4 +6,5 @@ defmodule StudyReminderWeb.ReminderView do
     %{data: render_many(reminders, ReminderView, "reminder.json")}
   end
 
-  def render("show.json"
+  def render("show.json", %{reminder: reminder}) do
+    %{d
