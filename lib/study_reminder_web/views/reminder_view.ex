@@ -7,4 +7,4 @@ defmodule StudyReminderWeb.ReminderView do
   end
 
   def render("show.json", %{reminder: reminder}) do
-    %{d
+    %{data: render_one(reminder, ReminderView, "
