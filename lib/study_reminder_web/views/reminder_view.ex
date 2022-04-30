@@ -1,1 +1,3 @@
-defmodule StudyReminderWeb.R
+defmodule StudyReminderWeb.ReminderView do
+  use StudyReminderWeb, :view
+  alias
