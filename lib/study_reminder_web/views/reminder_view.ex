@@ -3,4 +3,7 @@ defmodule StudyReminderWeb.ReminderView do
   alias StudyReminderWeb.ReminderView
 
   def render("index.json", %{reminders: reminders}) do
-    %{data: render_many(reminders, ReminderView, "
+    %{data: render_many(reminders, ReminderView, "reminder.json")}
+  end
+
+  def render("show.json"
