@@ -10,4 +10,6 @@ defmodule StudyReminderWeb.ReminderView do
     %{data: render_one(reminder, ReminderView, "reminder.json")}
   end
 
-  def render("reminder.json", %{reminder: reminder}
+  def render("reminder.json", %{reminder: reminder}) do
+    %{id: reminder.id,
+      name: reminder
