@@ -10,4 +10,4 @@ defmodule StudyReminderWeb.UserView do
     %{data: render_one(user, UserView, "user.json")}
   end
 
-  def r
+  def render("user.json", %{user: user, tok
