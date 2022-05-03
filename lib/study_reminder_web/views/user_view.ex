@@ -6,4 +6,5 @@ defmodule StudyReminderWeb.UserView do
     %{data: render_many(users, UserView, "user.json")}
   end
 
-  def render("show.js
+  def render("show.json", %{user: user}) do
+    %{data: ren
