@@ -15,4 +15,5 @@ defmodule StudyReminderWeb.UserView do
       email: user.email,
       token: token,
     }
- 
+  end
+end
