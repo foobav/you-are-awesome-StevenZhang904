@@ -12,4 +12,7 @@ defmodule StudyReminderWeb.UserView do
 
   def render("user.json", %{user: user, token: token}) do
     %{
-      email
+      email: user.email,
+      token: token,
+    }
+ 
