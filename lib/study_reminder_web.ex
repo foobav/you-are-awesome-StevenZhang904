@@ -5,4 +5,5 @@ defmodule StudyReminderWeb do
 
   This can be used in your application as:
 
-      use St
+      use StudyReminderWeb, :controller
+      use Study
