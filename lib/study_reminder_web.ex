@@ -8,4 +8,5 @@ defmodule StudyReminderWeb do
       use StudyReminderWeb, :controller
       use StudyReminderWeb, :view
 
-  The definitions below will 
+  The definitions below will be executed for every view,
+  controller, etc, s
