@@ -10,4 +10,6 @@ defmodule StudyReminderWeb do
 
   The definitions below will be executed for every view,
   controller, etc, so keep them short and clean, focused
-  on imports, us
+  on imports, uses and aliases.
+
+  Do NOT define functions inside the
