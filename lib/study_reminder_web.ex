@@ -12,4 +12,5 @@ defmodule StudyReminderWeb do
   controller, etc, so keep them short and clean, focused
   on imports, uses and aliases.
 
-  Do NOT define functions inside the
+  Do NOT define functions inside the quoted expressions
+  below. Instea
