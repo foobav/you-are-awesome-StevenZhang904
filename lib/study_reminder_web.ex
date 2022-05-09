@@ -9,4 +9,5 @@ defmodule StudyReminderWeb do
       use StudyReminderWeb, :view
 
   The definitions below will be executed for every view,
-  controller, etc, s
+  controller, etc, so keep them short and clean, focused
+  on imports, us
