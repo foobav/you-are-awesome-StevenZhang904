@@ -18,4 +18,5 @@ defmodule StudyReminderWeb do
   """
 
   def controller do
-    quote
+    quote do
+      use Phoenix.Controller, namespac
