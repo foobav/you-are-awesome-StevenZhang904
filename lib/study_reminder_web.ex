@@ -19,4 +19,7 @@ defmodule StudyReminderWeb do
 
   def controller do
     quote do
-      use Phoenix.Controller, namespac
+      use Phoenix.Controller, namespace: StudyReminderWeb
+
+      import Plug.Conn
+     
