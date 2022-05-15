@@ -15,4 +15,7 @@ defmodule StudyReminderWeb do
   Do NOT define functions inside the quoted expressions
   below. Instead, define any helper function in modules
   and import those modules here.
-  
+  """
+
+  def controller do
+    quote
