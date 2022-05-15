@@ -22,4 +22,5 @@ defmodule StudyReminderWeb do
       use Phoenix.Controller, namespace: StudyReminderWeb
 
       import Plug.Conn
-     
+      import StudyReminderWeb.Gettext
+      al
