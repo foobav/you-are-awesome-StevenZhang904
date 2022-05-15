@@ -13,4 +13,4 @@ defmodule StudyReminderWeb do
   on imports, uses and aliases.
 
   Do NOT define functions inside the quoted expressions
-  below. Instea
+  below. Instead, define any helper function in module
