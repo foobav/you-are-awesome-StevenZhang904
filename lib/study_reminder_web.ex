@@ -30,4 +30,4 @@ defmodule StudyReminderWeb do
   def view do
     quote do
       use Phoenix.View,
-    
+        root: "lib/study_reminder_web/templates"
