@@ -23,4 +23,8 @@ defmodule StudyReminderWeb do
 
       import Plug.Conn
       import StudyReminderWeb.Gettext
-      alias StudyReminderWeb.Router.Helpers, 
+      alias StudyReminderWeb.Router.Helpers, as: Routes
+    end
+  end
+
+  def v
