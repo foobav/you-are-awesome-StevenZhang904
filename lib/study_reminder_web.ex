@@ -27,4 +27,7 @@ defmodule StudyReminderWeb do
     end
   end
 
-  def v
+  def view do
+    quote do
+      use Phoenix.View,
+    
