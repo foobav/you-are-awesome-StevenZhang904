@@ -33,4 +33,5 @@ defmodule StudyReminderWeb do
         root: "lib/study_reminder_web/templates",
         namespace: StudyReminderWeb
 
-      # Import convenience functions fro
+      # Import convenience functions from controllers
+      import Phoenix.Cont
