@@ -37,4 +37,5 @@ defmodule StudyReminderWeb do
       import Phoenix.Controller, only: [get_flash: 1, get_flash: 2, view_module: 1]
 
       import StudyReminderWeb.ErrorHelpers
-      import Stu
+      import StudyReminderWeb.Gettext
+      alias StudyReminderWe
