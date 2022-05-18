@@ -38,4 +38,5 @@ defmodule StudyReminderWeb do
 
       import StudyReminderWeb.ErrorHelpers
       import StudyReminderWeb.Gettext
-      alias StudyReminderWe
+      alias StudyReminderWeb.Router.Helpers, as: Routes
+    end
