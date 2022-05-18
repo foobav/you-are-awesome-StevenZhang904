@@ -34,4 +34,4 @@ defmodule StudyReminderWeb do
         namespace: StudyReminderWeb
 
       # Import convenience functions from controllers
-      import Phoenix.Cont
+      import Phoenix.Controller, only: [get_flash: 1, get_flash: 2, view_m
