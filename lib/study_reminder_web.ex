@@ -45,4 +45,5 @@ defmodule StudyReminderWeb do
   def router do
     quote do
       use Phoenix.Router
-      impo
+      import Plug.Conn
+      import Phoenix.Controll
