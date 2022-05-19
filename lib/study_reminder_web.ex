@@ -52,4 +52,5 @@ defmodule StudyReminderWeb do
 
   def channel do
     quote do
- 
+      use Phoenix.Channel
+      import StudyReminderWeb.Get
