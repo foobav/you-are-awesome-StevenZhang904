@@ -46,4 +46,10 @@ defmodule StudyReminderWeb do
     quote do
       use Phoenix.Router
       import Plug.Conn
-      import Phoenix.Controll
+      import Phoenix.Controller
+    end
+  end
+
+  def channel do
+    quote do
+ 
