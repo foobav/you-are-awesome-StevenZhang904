@@ -40,3 +40,7 @@ defmodule StudyReminderWeb do
       import StudyReminderWeb.Gettext
       alias StudyReminderWeb.Router.Helpers, as: Routes
     end
+  end
+
+  def router do
+    quote d
