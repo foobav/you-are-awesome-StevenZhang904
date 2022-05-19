@@ -43,4 +43,6 @@ defmodule StudyReminderWeb do
   end
 
   def router do
-    quote d
+    quote do
+      use Phoenix.Router
+      impo
