@@ -11,4 +11,4 @@
   "ecto_sql": {:hex, :ecto_sql, "3.2.1", "4eed4100cbb2abcff10c46660d6613693807bf64f1b865f414daccf762d3758d", [:mix], [{:db_connection, "~> 2.1", [hex: :db_connection, repo: "hexpm", optional: false]}, {:ecto, "~> 3.2.0", [hex: :ecto, repo: "hexpm", optional: false]}, {:myxql, "~> 0.2.0", [hex: :myxql, repo: "hexpm", optional: true]}, {:postgrex, "~> 0.15.0", [hex: :postgrex, repo: "hexpm", optional: true]}, {:telemetry, "~> 0.4.0", [hex: :telemetry, repo: "hexpm", optional: false]}], "hexpm"},
   "elixir_make": {:hex, :elixir_make, "0.6.0", "38349f3e29aff4864352084fc736fa7fa0f2995a819a737554f7ebd28b85aaab", [:mix], [], "hexpm"},
   "faker": {:hex, :faker, "0.13.0", "8abcb996f010ccd6c85588c89fc047f11134e04da019b70252f95431d721a3dc", [:mix], [], "hexpm"},
-  "gettext": {:hex, :gettext, "0.17.1", 
+  "gettext": {:hex, :gettext, "0.17.1", "8baab33482df4907b3eae22f719da492cee3981a2
