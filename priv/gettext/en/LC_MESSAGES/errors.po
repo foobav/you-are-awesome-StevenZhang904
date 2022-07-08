@@ -1,4 +1,5 @@
 ## `msgid`s in this file come from POT (.pot) files.
 ##
 ## Do not add, change, or remove `msgid`s manually here as
-## they're tied to the ones in t
+## they're tied to the ones in the corresponding POT file
+## (wit
