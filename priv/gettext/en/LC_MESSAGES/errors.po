@@ -1,1 +1,3 @@
-## `msgid`s in this file come from POT (.pot) f
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s ma
