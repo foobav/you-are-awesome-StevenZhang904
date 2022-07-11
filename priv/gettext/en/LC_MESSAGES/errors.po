@@ -11,4 +11,7 @@ msgstr ""
 "Language: en\n"
 
 ## From Ecto.Changeset.cast/4
-msgid "ca
+msgid "can't be blank"
+msgstr ""
+
+## From Ec
