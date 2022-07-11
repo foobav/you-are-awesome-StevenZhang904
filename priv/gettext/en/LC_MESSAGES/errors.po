@@ -2,4 +2,6 @@
 ##
 ## Do not add, change, or remove `msgid`s manually here as
 ## they're tied to the ones in the corresponding POT file
-## (wit
+## (with the same domain).
+##
+## Use `mix gettext.extract -
