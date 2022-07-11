@@ -4,4 +4,5 @@
 ## they're tied to the ones in the corresponding POT file
 ## (with the same domain).
 ##
-## Use `mix gettext.extract -
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into 
