@@ -5,4 +5,7 @@
 ## (with the same domain).
 ##
 ## Use `mix gettext.extract --merge` or `mix gettext.merge`
-## to merge POT files into 
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: 
