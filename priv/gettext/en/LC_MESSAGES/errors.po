@@ -23,4 +23,7 @@ msgid "is invalid"
 msgstr ""
 
 ## From Ecto.Changeset.validate_acceptance/3
-msg
+msgid "must be accepted"
+msgstr ""
+
+## From Ecto.Chang
