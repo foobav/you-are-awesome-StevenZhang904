@@ -27,4 +27,7 @@ msgid "must be accepted"
 msgstr ""
 
 ## From Ecto.Changeset.validate_format/3
-msgi
+msgid "has invalid format"
+msgstr ""
+
+## From Ecto.Changese
