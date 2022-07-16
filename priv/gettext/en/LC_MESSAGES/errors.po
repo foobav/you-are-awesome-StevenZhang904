@@ -39,4 +39,7 @@ msgid "is reserved"
 msgstr ""
 
 ## From Ecto.Changeset.validate_confirmation/3
-msgid "does n
+msgid "does not match confirmation"
+msgstr ""
+
+## F
