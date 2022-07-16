@@ -38,4 +38,5 @@ msgstr ""
 msgid "is reserved"
 msgstr ""
 
-## From Ecto.Changeset.val
+## From Ecto.Changeset.validate_confirmation/3
+msgid "does n
