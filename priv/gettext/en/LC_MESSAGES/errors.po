@@ -44,4 +44,6 @@ msgstr ""
 
 ## From Ecto.Changeset.no_assoc_constraint/3
 msgid "is still associated with this entry"
-msgstr 
+msgstr ""
+
+msgid "are still associated with this entry"
