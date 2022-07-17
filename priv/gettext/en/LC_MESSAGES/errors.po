@@ -42,4 +42,5 @@ msgstr ""
 msgid "does not match confirmation"
 msgstr ""
 
-## F
+## From Ecto.Changeset.no_assoc_constraint/3
+msgid "is st
