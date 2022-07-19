@@ -51,4 +51,6 @@ msgstr ""
 
 ## From Ecto.Changeset.validate_length/3
 msgid "should be %{count} character(s)"
-msgid_plu
+msgid_plural "should be %{count} character(s)"
+msgstr[0] ""
+msgs
