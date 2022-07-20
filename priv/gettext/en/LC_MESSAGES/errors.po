@@ -56,4 +56,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "should have %{count} item(s)"
-msgid_plural "should have %{coun
+msgid_plural "should have %{count} item(s)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgi
