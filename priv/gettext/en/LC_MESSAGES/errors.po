@@ -66,4 +66,4 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "should have at least %{count} item(s)"
-msgid_pl
+msgid_plural "should have at least %{count
