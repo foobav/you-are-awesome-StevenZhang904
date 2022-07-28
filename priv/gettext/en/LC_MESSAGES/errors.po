@@ -80,4 +80,5 @@ msgid_plural "should have at most %{count} item(s)"
 msgstr[0] ""
 msgstr[1] ""
 
-## From Ecto.Changeset.validate_numbe
+## From Ecto.Changeset.validate_number/3
+msgid "must be less than %{number}
