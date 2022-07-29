@@ -84,4 +84,7 @@ msgstr[1] ""
 msgid "must be less than %{number}"
 msgstr ""
 
-msgid "must be g
+msgid "must be greater than %{number}"
+msgstr ""
+
+msgid "m
