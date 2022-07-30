@@ -93,4 +93,5 @@ msgstr ""
 msgid "must be greater than or equal to %{number}"
 msgstr ""
 
-msg
+msgid "must be equal to %{number}"
+msgst
