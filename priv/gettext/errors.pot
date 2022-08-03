@@ -5,4 +5,5 @@
 ## translations that can't be statically extracted.
 ##
 ## Run `mix gettext.extract` to bring this file up to
-## date. Leav
+## date. Leave `msgstr`s empty as changing them here has no
+##
