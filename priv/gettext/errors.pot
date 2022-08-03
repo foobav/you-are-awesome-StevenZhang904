@@ -4,4 +4,5 @@
 ## Add new translations manually only if they're dynamic
 ## translations that can't be statically extracted.
 ##
-## Run `mix gettext.extra
+## Run `mix gettext.extract` to bring this file up to
+## date. Leav
