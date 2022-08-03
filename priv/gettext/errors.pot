@@ -2,4 +2,6 @@
 ##
 ## `msgid`s here are often extracted from source code.
 ## Add new translations manually only if they're dynamic
-## translations that can't be s
+## translations that can't be statically extracted.
+##
+## Run `mix gettext.extra
