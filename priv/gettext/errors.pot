@@ -12,4 +12,6 @@
 msgid "can't be blank"
 msgstr ""
 
-## From Ecto.Change
+## From Ecto.Changeset.unique_constraint/3
+msgid "has already been taken"
+ms
