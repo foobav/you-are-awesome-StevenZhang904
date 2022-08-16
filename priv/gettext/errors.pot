@@ -36,4 +36,5 @@ msgstr ""
 msgid "is reserved"
 msgstr ""
 
-## From Ecto.Changeset.valida
+## From Ecto.Changeset.validate_confirmation/3
+msgid "does not match conf
