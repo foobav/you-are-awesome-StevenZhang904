@@ -41,4 +41,7 @@ msgid "does not match confirmation"
 msgstr ""
 
 ## From Ecto.Changeset.no_assoc_constraint/3
-msgid "is stil
+msgid "is still associated with this entry"
+msgstr ""
+
+m
