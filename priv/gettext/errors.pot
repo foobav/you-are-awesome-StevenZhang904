@@ -44,4 +44,4 @@ msgstr ""
 msgid "is still associated with this entry"
 msgstr ""
 
-m
+msgid "are still associated with this e
