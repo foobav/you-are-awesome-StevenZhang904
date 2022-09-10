@@ -73,4 +73,5 @@ msgid_plural "should be at most %{count} character(s)"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "should have at most %{count} item
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %
