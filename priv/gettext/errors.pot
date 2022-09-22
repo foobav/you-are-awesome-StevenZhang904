@@ -92,4 +92,4 @@ msgid "must be greater than or equal to %{number}"
 msgstr ""
 
 msgid "must be equal to %{number}"
-m
+msgstr ""
