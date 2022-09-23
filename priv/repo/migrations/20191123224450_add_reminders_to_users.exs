@@ -2,4 +2,5 @@ defmodule StudyReminder.Repo.Migrations.AddRemindersToUsers do
   use Ecto.Migration
 
   def change do
-    a
+    alter table("reminders") do
+      add :user_id, re
