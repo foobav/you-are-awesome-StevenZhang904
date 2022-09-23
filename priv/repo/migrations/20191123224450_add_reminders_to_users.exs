@@ -1,1 +1,1 @@
-defmodule StudyRem
+defmodule StudyReminder.Repo.Migrations.AddRemindersToUsers
