@@ -2,4 +2,4 @@
 #
 #     mix run priv/repo/seeds.exs
 #
-# I
+# Inside the script, you can read and w
