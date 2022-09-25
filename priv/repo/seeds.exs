@@ -2,4 +2,5 @@
 #
 #     mix run priv/repo/seeds.exs
 #
-# Inside the script, you can read and w
+# Inside the script, you can read and write to any of your
+# repositories dire
