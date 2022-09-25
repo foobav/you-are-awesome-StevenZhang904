@@ -1,1 +1,1 @@
-# Script for popu
+# Script for populating the database. You can run it
