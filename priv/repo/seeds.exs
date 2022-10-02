@@ -7,4 +7,5 @@
 #
 #     StudyReminder.Repo.insert!(%StudyReminder.SomeSchema{})
 #
-# We recommend using 
+# We recommend using the bang functions (`insert!`, `update!`
+# and so on) as
