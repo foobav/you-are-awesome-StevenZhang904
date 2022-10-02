@@ -3,4 +3,6 @@
 #     mix run priv/repo/seeds.exs
 #
 # Inside the script, you can read and write to any of your
-# repositories dire
+# repositories directly:
+#
+#     StudyReminder.Repo.insert!(%StudyReminder.Som
