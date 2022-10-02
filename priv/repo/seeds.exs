@@ -5,4 +5,6 @@
 # Inside the script, you can read and write to any of your
 # repositories directly:
 #
-#     StudyReminder.Repo.insert!(%StudyReminder.Som
+#     StudyReminder.Repo.insert!(%StudyReminder.SomeSchema{})
+#
+# We recommend using 
