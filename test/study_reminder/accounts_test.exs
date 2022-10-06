@@ -1,4 +1,6 @@
 defmodule StudyReminder.AccountsTest do
   use StudyReminder.DataCase
 
-  ali
+  alias StudyReminder.Accounts
+
+  describe "users" d
