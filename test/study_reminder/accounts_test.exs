@@ -1,1 +1,4 @@
-defmodule StudyReminder.AccountsTest 
+defmodule StudyReminder.AccountsTest do
+  use StudyReminder.DataCase
+
+  ali
