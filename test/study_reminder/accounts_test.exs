@@ -3,4 +3,5 @@ defmodule StudyReminder.AccountsTest do
 
   alias StudyReminder.Accounts
 
-  describe "users" d
+  describe "users" do
+    alias StudyReminder.Accounts.Use
