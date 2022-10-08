@@ -8,4 +8,6 @@ defmodule StudyReminder.AccountsTest do
 
     @valid_attrs %{email: "user@business.com", password: "some password"}
     @update_attrs %{email: "user2@business.com", password: "some updated password"}
-    @invalid_
+    @invalid_attrs %{email: nil, password: nil}
+
+ 
