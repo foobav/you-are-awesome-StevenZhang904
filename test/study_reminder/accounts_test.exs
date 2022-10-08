@@ -7,4 +7,4 @@ defmodule StudyReminder.AccountsTest do
     alias StudyReminder.Accounts.User
 
     @valid_attrs %{email: "user@business.com", password: "some password"}
-    @update_a
+    @update_attrs %{email: "user2@business.c
