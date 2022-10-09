@@ -14,4 +14,9 @@ defmodule StudyReminder.AccountsTest do
       {:ok, user} =
         attrs
         |> Enum.into(@valid_attrs)
-        |> Accounts.cr
+        |> Accounts.create_user()
+
+      user
+    end
+
+    test "get_u
