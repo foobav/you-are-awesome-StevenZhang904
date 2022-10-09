@@ -11,4 +11,6 @@ defmodule StudyReminder.AccountsTest do
     @invalid_attrs %{email: nil, password: nil}
 
     def user_fixture(attrs \\ %{}) do
-   
+      {:ok, user} =
+        attrs
+        |> En
