@@ -13,4 +13,5 @@ defmodule StudyReminder.AccountsTest do
     def user_fixture(attrs \\ %{}) do
       {:ok, user} =
         attrs
-        |> En
+        |> Enum.into(@valid_attrs)
+        |> Accounts.cr
