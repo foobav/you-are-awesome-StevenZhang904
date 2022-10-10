@@ -19,4 +19,4 @@ defmodule StudyReminder.AccountsTest do
       user
     end
 
-    test "get_u
+    test "get_user!/1 returns the user with given id
