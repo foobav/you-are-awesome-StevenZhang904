@@ -19,4 +19,5 @@ defmodule StudyReminder.AccountsTest do
       user
     end
 
-    test "get_user!/1 returns the user with given id
+    test "get_user!/1 returns the user with given id" do
+      user = user_fixture()
