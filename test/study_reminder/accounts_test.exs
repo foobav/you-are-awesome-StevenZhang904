@@ -24,4 +24,4 @@ defmodule StudyReminder.AccountsTest do
       assert Accounts.get_user!(user.id).email == user.email
     end
 
-    test "crea
+    test "create_user/1 with valid data creates a user" d
