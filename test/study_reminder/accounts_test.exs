@@ -24,4 +24,5 @@ defmodule StudyReminder.AccountsTest do
       assert Accounts.get_user!(user.id).email == user.email
     end
 
-    test "create_user/1 with valid data creates a user" d
+    test "create_user/1 with valid data creates a user" do
+      assert {:ok, %User{} = user} = Acco
