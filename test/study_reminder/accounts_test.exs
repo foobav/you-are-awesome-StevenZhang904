@@ -25,4 +25,5 @@ defmodule StudyReminder.AccountsTest do
     end
 
     test "create_user/1 with valid data creates a user" do
-      assert {:ok, %User{} = user} = Acco
+      assert {:ok, %User{} = user} = Accounts.create_user(@valid_attrs)
+      asse
