@@ -27,4 +27,7 @@ defmodule StudyReminder.AccountsTest do
     test "create_user/1 with valid data creates a user" do
       assert {:ok, %User{} = user} = Accounts.create_user(@valid_attrs)
       assert user.email == "user@business.com"
-      assert Comeonin.Bcrypt.checkpw("some passw
+      assert Comeonin.Bcrypt.checkpw("some password", user.encrypted_password) == true
+    end
+
+    tes
