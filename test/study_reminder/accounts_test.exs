@@ -30,4 +30,4 @@ defmodule StudyReminder.AccountsTest do
       assert Comeonin.Bcrypt.checkpw("some password", user.encrypted_password) == true
     end
 
-    tes
+    test "create_user/1 with invalid data returns
