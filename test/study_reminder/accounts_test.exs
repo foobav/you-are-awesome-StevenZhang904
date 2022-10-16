@@ -31,4 +31,4 @@ defmodule StudyReminder.AccountsTest do
     end
 
     test "create_user/1 with invalid data returns error changeset" do
-      assert {:e
+      assert {:error, %Ecto.Changeset{}} = Accounts.create_us
