@@ -34,4 +34,5 @@ defmodule StudyReminder.AccountsTest do
       assert {:error, %Ecto.Changeset{}} = Accounts.create_user(@invalid_attrs)
     end
 
-    test "update_user/2 with v
+    test "update_user/2 with valid data updates the user" do
+      user 
