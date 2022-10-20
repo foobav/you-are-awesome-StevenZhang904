@@ -35,4 +35,5 @@ defmodule StudyReminder.AccountsTest do
     end
 
     test "update_user/2 with valid data updates the user" do
-      user 
+      user = user_fixture()
+      assert {:ok, user} = Accounts
