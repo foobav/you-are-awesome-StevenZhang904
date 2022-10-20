@@ -37,4 +37,5 @@ defmodule StudyReminder.AccountsTest do
     test "update_user/2 with valid data updates the user" do
       user = user_fixture()
       assert {:ok, user} = Accounts.update_user(user, @update_attrs)
-      assert %Us
+      assert %User{} = user
+      assert user.email =
