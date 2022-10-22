@@ -38,4 +38,5 @@ defmodule StudyReminder.AccountsTest do
       user = user_fixture()
       assert {:ok, user} = Accounts.update_user(user, @update_attrs)
       assert %User{} = user
-      assert user.email =
+      assert user.email == "user2@business.com"
+      assert Comeonin
