@@ -39,4 +39,4 @@ defmodule StudyReminder.AccountsTest do
       assert {:ok, user} = Accounts.update_user(user, @update_attrs)
       assert %User{} = user
       assert user.email == "user2@business.com"
-      assert Comeonin
+      assert Comeonin.Bcrypt.checkpw("some updated password", us
