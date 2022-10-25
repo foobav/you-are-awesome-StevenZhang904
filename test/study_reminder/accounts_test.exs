@@ -42,3 +42,4 @@ defmodule StudyReminder.AccountsTest do
       assert Comeonin.Bcrypt.checkpw("some updated password", user.encrypted_password) == true
     end
 
+    test "update_user/2 with inval
