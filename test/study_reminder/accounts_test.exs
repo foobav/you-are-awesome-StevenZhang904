@@ -43,4 +43,5 @@ defmodule StudyReminder.AccountsTest do
     end
 
     test "update_user/2 with invalid data returns error changeset" do
-      user = u
+      user = user_fixture()
+      assert {:e
