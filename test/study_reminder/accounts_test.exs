@@ -45,4 +45,4 @@ defmodule StudyReminder.AccountsTest do
     test "update_user/2 with invalid data returns error changeset" do
       user = user_fixture()
       assert {:error, %Ecto.Changeset{}} = Accounts.update_user(user, @invalid_attrs)
-      assert user.e
+      assert user.email == Accounts.get_user!(user.id).email
