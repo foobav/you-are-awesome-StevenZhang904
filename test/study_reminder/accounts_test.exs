@@ -48,4 +48,6 @@ defmodule StudyReminder.AccountsTest do
       assert user.email == Accounts.get_user!(user.id).email
     end
 
-    test "delete_user/1 deletes the user
+    test "delete_user/1 deletes the user" do
+      user = user_fixture()
+      assert
