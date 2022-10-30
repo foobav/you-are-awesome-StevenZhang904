@@ -46,3 +46,6 @@ defmodule StudyReminder.AccountsTest do
       user = user_fixture()
       assert {:error, %Ecto.Changeset{}} = Accounts.update_user(user, @invalid_attrs)
       assert user.email == Accounts.get_user!(user.id).email
+    end
+
+    test "delete_user/1 deletes the user
