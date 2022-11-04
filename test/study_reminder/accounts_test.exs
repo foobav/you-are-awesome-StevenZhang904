@@ -50,4 +50,5 @@ defmodule StudyReminder.AccountsTest do
 
     test "delete_user/1 deletes the user" do
       user = user_fixture()
-      assert {:ok, %User{}} = Accounts.delete_user
+      assert {:ok, %User{}} = Accounts.delete_user(user)
+      assert_raise Ecto.NoResultsErr
