@@ -52,4 +52,6 @@ defmodule StudyReminder.AccountsTest do
       user = user_fixture()
       assert {:ok, %User{}} = Accounts.delete_user(user)
       assert_raise Ecto.NoResultsError, fn -> Accounts.get_user!(user.id) end
-    e
+    end
+
+    test "change_user/1 returns a user cha
