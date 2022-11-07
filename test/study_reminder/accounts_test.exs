@@ -57,4 +57,6 @@ defmodule StudyReminder.AccountsTest do
     test "change_user/1 returns a user changeset" do
       user = user_fixture()
       assert %Ecto.Changeset{} = Accounts.change_user(user)
-    en
+    end
+  end
+end
