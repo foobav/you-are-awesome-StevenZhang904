@@ -1,1 +1,4 @@
-defmodule StudyReminderWeb.ReminderControllerTest 
+defmodule StudyReminderWeb.ReminderControllerTest do
+  use StudyReminderWeb.ConnCase
+
+  i
