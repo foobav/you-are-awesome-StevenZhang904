@@ -1,4 +1,6 @@
 defmodule StudyReminderWeb.ReminderControllerTest do
   use StudyReminderWeb.ConnCase
 
-  i
+  import StudyReminder.Factory
+
+  alias StudyR
