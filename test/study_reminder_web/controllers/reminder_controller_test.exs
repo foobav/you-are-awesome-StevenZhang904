@@ -3,4 +3,5 @@ defmodule StudyReminderWeb.ReminderControllerTest do
 
   import StudyReminder.Factory
 
-  alias StudyR
+  alias StudyReminder.Study
+  alias StudyReminder.Study.Re
