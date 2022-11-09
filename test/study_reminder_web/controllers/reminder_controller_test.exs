@@ -4,4 +4,6 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   import StudyReminder.Factory
 
   alias StudyReminder.Study
-  alias StudyReminder.Study.Re
+  alias StudyReminder.Study.Reminder
+
+  @invalid_attrs %{name: nil, rem
