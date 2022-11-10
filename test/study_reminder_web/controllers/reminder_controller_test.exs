@@ -6,4 +6,7 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   alias StudyReminder.Study
   alias StudyReminder.Study.Reminder
 
-  @invalid_attrs %{name: nil, rem
+  @invalid_attrs %{name: nil, reminder_enabled: nil}
+
+  @create_attrs %{
+   
