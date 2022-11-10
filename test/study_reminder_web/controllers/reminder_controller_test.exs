@@ -11,3 +11,7 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   @create_attrs %{
     name: "some name",
     reminder_enabled: true
+  }
+
+  setup %{conn: conn} do
+    {:ok,
