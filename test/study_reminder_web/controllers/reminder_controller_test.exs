@@ -9,4 +9,5 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   @invalid_attrs %{name: nil, reminder_enabled: nil}
 
   @create_attrs %{
-   
+    name: "some name",
+    reminder_enabled: true
