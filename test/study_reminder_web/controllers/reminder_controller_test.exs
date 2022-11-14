@@ -14,4 +14,4 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   }
 
   setup %{conn: conn} do
-    {:ok,
+    {:ok, conn: put_req_header(conn, "accept", "applica
