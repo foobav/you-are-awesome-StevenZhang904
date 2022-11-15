@@ -14,4 +14,5 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   }
 
   setup %{conn: conn} do
-    {:ok, conn: put_req_header(conn, "accept", "applica
+    {:ok, conn: put_req_header(conn, "accept", "application/json")}
+    [jwt_account_token: jwt_acc
