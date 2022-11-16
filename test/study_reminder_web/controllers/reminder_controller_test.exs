@@ -19,4 +19,4 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   end
 
   describe "create reminder" do
-    test "renders reminder
+    test "renders reminder when data is valid", %{conn: conn, jwt_a
