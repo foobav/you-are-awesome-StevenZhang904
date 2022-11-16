@@ -18,4 +18,5 @@ defmodule StudyReminderWeb.ReminderControllerTest do
     [jwt_account_token: jwt_account_token()]
   end
 
-  describe "create r
+  describe "create reminder" do
+    test "renders reminder
