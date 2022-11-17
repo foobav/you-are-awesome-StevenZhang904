@@ -20,4 +20,4 @@ defmodule StudyReminderWeb.ReminderControllerTest do
 
   describe "create reminder" do
     test "renders reminder when data is valid", %{conn: conn, jwt_account_token: jwt_account_token} do
-      conn = 
+      conn = conn |> put_req_header("authorization", "B
