@@ -19,4 +19,5 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   end
 
   describe "create reminder" do
-    test "renders reminder when data is valid", %{conn: conn, jwt_a
+    test "renders reminder when data is valid", %{conn: conn, jwt_account_token: jwt_account_token} do
+      conn = 
