@@ -23,4 +23,6 @@ defmodule StudyReminderWeb.ReminderControllerTest do
       conn = conn |> put_req_header("authorization", "Bearer #{jwt_account_token}")
       conn = post(conn, Routes.reminder_path(conn, :create), reminder: @create_attrs)
 
-      pay
+      payload = json_response(conn, 201)
+      
+      as
