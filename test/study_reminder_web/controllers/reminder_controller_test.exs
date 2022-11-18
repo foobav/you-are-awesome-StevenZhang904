@@ -21,4 +21,6 @@ defmodule StudyReminderWeb.ReminderControllerTest do
   describe "create reminder" do
     test "renders reminder when data is valid", %{conn: conn, jwt_account_token: jwt_account_token} do
       conn = conn |> put_req_header("authorization", "Bearer #{jwt_account_token}")
-      conn = post(conn, Routes.reminder_path(conn, :creat
+      conn = post(conn, Routes.reminder_path(conn, :create), reminder: @create_attrs)
+
+      pay
