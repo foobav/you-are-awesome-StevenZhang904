@@ -25,4 +25,4 @@ defmodule StudyReminderWeb.ReminderControllerTest do
 
       payload = json_response(conn, 201)
       
-      as
+      assert payload["data"]["reminder_enabled"] =
