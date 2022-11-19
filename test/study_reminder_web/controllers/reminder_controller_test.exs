@@ -27,4 +27,7 @@ defmodule StudyReminderWeb.ReminderControllerTest do
       
       assert payload["data"]["reminder_enabled"] == false
       assert payload["data"] |> Map.has_key?("name")
-      assert payload[
+      assert payload["data"] |> Map.has_key?("id")
+  
+    end
+  
