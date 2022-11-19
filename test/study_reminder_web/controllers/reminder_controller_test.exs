@@ -26,4 +26,5 @@ defmodule StudyReminderWeb.ReminderControllerTest do
       payload = json_response(conn, 201)
       
       assert payload["data"]["reminder_enabled"] == false
-      assert payload["data"] |> Map
+      assert payload["data"] |> Map.has_key?("name")
+      assert payload[
