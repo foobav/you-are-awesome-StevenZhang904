@@ -30,4 +30,5 @@ defmodule StudyReminderWeb.ReminderControllerTest do
       assert payload["data"] |> Map.has_key?("id")
   
     end
-  
+  end
+end
