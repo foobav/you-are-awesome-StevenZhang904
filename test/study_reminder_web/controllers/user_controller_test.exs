@@ -1,1 +1,2 @@
-defmodule StudyReminderWeb.User
+defmodule StudyReminderWeb.UserControllerTest do
+  use StudyRemin
