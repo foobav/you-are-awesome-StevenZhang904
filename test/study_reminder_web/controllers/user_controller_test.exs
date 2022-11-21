@@ -1,2 +1,4 @@
 defmodule StudyReminderWeb.UserControllerTest do
-  use StudyRemin
+  use StudyReminderWeb.ConnCase
+
+  alias StudyRemind
