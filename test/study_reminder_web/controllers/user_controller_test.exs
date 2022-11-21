@@ -4,3 +4,5 @@ defmodule StudyReminderWeb.UserControllerTest do
   alias StudyReminder.Accounts
   alias StudyReminder.Accounts.User
 
+
+  @create_attrs %{email: "user@business.com", passw
