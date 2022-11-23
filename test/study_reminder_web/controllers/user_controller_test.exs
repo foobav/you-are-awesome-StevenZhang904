@@ -6,4 +6,4 @@ defmodule StudyReminderWeb.UserControllerTest do
 
 
   @create_attrs %{email: "user@business.com", password: "some encrypted_password"}
-  @in
+  @invalid_attrs %{email: nil, password: ni
