@@ -6,4 +6,7 @@ defmodule StudyReminderWeb.UserControllerTest do
 
 
   @create_attrs %{email: "user@business.com", password: "some encrypted_password"}
-  @invalid_attrs %{email: nil, password: ni
+  @invalid_attrs %{email: nil, password: nil}
+
+  def fixture(:user) do
+    {
