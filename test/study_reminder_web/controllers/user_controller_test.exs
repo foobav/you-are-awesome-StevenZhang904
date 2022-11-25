@@ -9,4 +9,9 @@ defmodule StudyReminderWeb.UserControllerTest do
   @invalid_attrs %{email: nil, password: nil}
 
   def fixture(:user) do
-    {:ok, user} = Accounts.create_user(@create_attr
+    {:ok, user} = Accounts.create_user(@create_attrs)
+    user
+  end
+
+  setup %{conn: conn} do
+    {:ok
