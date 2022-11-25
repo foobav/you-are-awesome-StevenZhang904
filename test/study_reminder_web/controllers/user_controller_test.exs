@@ -14,4 +14,4 @@ defmodule StudyReminderWeb.UserControllerTest do
   end
 
   setup %{conn: conn} do
-    {:ok
+    {:ok, conn: put_req_header(conn, "accept", "application
