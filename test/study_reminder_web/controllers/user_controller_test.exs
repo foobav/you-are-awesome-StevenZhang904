@@ -17,4 +17,5 @@ defmodule StudyReminderWeb.UserControllerTest do
     {:ok, conn: put_req_header(conn, "accept", "application/json")}
   end
 
-  describe "create user"
+  describe "create user" do
+    test "renders errors when data is i
