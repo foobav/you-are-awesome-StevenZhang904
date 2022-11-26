@@ -18,4 +18,5 @@ defmodule StudyReminderWeb.UserControllerTest do
   end
 
   describe "create user" do
-    test "renders errors when data is i
+    test "renders errors when data is invalid", %{conn: conn} do
+      conn = post 
