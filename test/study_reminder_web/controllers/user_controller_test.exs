@@ -19,4 +19,4 @@ defmodule StudyReminderWeb.UserControllerTest do
 
   describe "create user" do
     test "renders errors when data is invalid", %{conn: conn} do
-      conn = post 
+      conn = post conn, Routes.user_path(conn, :create), use
