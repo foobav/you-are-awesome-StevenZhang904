@@ -1,2 +1,4 @@
 defmodule StudyReminderWeb.ErrorViewTest do
-  u
+  use StudyReminderWeb.ConnCase, async: true
+
+  
