@@ -19,4 +19,5 @@ defmodule StudyReminderWeb.UserControllerTest do
 
   describe "create user" do
     test "renders errors when data is invalid", %{conn: conn} do
-      conn = post conn, Routes.user_path(conn, :create), use
+      conn = post conn, Routes.user_path(conn, :create), user: @invalid_attrs
+      assert json_response(conn, 422
