@@ -5,4 +5,4 @@ defmodule StudyReminderWeb.ErrorViewTest do
   import Phoenix.View
 
   test "renders 404.json" do
-    assert render
+    assert render(StudyReminderWeb.ErrorView, "404.json", []) == %
