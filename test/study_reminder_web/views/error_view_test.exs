@@ -8,4 +8,5 @@ defmodule StudyReminderWeb.ErrorViewTest do
     assert render(StudyReminderWeb.ErrorView, "404.json", []) == %{errors: %{detail: "Not Found"}}
   end
 
- 
+  test "renders 500.json" do
+    ass
