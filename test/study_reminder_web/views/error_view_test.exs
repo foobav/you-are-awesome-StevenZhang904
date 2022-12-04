@@ -9,4 +9,4 @@ defmodule StudyReminderWeb.ErrorViewTest do
   end
 
   test "renders 500.json" do
-    ass
+    assert render(StudyReminderWeb.ErrorView, "500.json
