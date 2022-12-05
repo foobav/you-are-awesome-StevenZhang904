@@ -12,3 +12,4 @@ defmodule StudyReminderWeb.ErrorViewTest do
     assert render(StudyReminderWeb.ErrorView, "500.json", []) ==
              %{errors: %{detail: "Internal Server Error"}}
   end
+end
