@@ -1,2 +1,3 @@
 defmodule StudyReminderWeb.ChannelCase do
-  @moduledoc
+  @moduledoc """
+  This module defines the test ca
