@@ -4,4 +4,4 @@ defmodule StudyReminderWeb.ChannelCase do
   channel tests.
 
   Such tests rely on `Phoenix.ChannelTest` and also
-  im
+  import other functionality to make it eas
