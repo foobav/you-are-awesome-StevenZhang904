@@ -5,4 +5,6 @@ defmodule StudyReminderWeb.ChannelCase do
 
   Such tests rely on `Phoenix.ChannelTest` and also
   import other functionality to make it easier
-  to build common data structures and q
+  to build common data structures and query the data layer.
+
+  Finally, if 
