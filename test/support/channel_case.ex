@@ -8,4 +8,4 @@ defmodule StudyReminderWeb.ChannelCase do
   to build common data structures and query the data layer.
 
   Finally, if the test case interacts with the database,
-  it cannot
+  it cannot be async. For this reason, every
