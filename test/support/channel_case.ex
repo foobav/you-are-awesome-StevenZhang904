@@ -11,4 +11,9 @@ defmodule StudyReminderWeb.ChannelCase do
   it cannot be async. For this reason, every test runs
   inside a transaction which is reset at the beginning
   of the test unless the test case is marked as async.
-  ""
+  """
+
+  use ExUnit.CaseTemplate
+
+  using do
+    quote do
