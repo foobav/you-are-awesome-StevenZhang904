@@ -21,4 +21,6 @@ defmodule StudyReminderWeb.ChannelCase do
       use Phoenix.ChannelTest
 
       # The default endpoint for testing
-  
+      @endpoint StudyReminderWeb.Endpoint
+    end
+  e
