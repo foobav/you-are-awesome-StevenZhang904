@@ -23,4 +23,7 @@ defmodule StudyReminderWeb.ChannelCase do
       # The default endpoint for testing
       @endpoint StudyReminderWeb.Endpoint
     end
-  e
+  end
+
+  setup tags do
+    :ok = Ecto.Adapters.SQL.Sa
