@@ -28,4 +28,5 @@ defmodule StudyReminderWeb.ChannelCase do
   setup tags do
     :ok = Ecto.Adapters.SQL.Sandbox.checkout(StudyReminder.Repo)
 
-   
+    unless tags[:async] do
+      Ecto.A
