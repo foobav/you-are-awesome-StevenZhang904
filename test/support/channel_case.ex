@@ -29,4 +29,5 @@ defmodule StudyReminderWeb.ChannelCase do
     :ok = Ecto.Adapters.SQL.Sandbox.checkout(StudyReminder.Repo)
 
     unless tags[:async] do
-      Ecto.Adapters.SQL.Sandbox.mode(StudyRemi
+      Ecto.Adapters.SQL.Sandbox.mode(StudyReminder.Repo, {:shared, self()})
+    end
