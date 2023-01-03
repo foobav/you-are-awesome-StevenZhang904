@@ -31,3 +31,7 @@ defmodule StudyReminderWeb.ChannelCase do
     unless tags[:async] do
       Ecto.Adapters.SQL.Sandbox.mode(StudyReminder.Repo, {:shared, self()})
     end
+
+    :ok
+  end
+end
