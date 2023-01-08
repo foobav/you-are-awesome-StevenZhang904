@@ -3,4 +3,7 @@ defmodule StudyReminder.DataCase do
   This module defines the setup for tests requiring
   access to the application's data layer.
 
-  You may define functions here to be u
+  You may define functions here to be used as helpers in
+  your tests.
+
+  Finally, if 
