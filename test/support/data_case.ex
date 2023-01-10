@@ -6,4 +6,5 @@ defmodule StudyReminder.DataCase do
   You may define functions here to be used as helpers in
   your tests.
 
-  Finally, if 
+  Finally, if the test case interacts with the database,
+  it
