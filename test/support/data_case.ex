@@ -7,4 +7,5 @@ defmodule StudyReminder.DataCase do
   your tests.
 
   Finally, if the test case interacts with the database,
-  it cannot be async. For this reason, every test
+  it cannot be async. For this reason, every test runs
+  inside a transaction which is reset at 
