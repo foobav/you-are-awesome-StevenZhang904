@@ -16,4 +16,7 @@ defmodule StudyReminder.DataCase do
 
   using do
     quote do
-   
+      alias StudyReminder.Repo
+
+      import Ecto
+      
