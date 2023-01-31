@@ -19,4 +19,5 @@ defmodule StudyReminder.DataCase do
       alias StudyReminder.Repo
 
       import Ecto
-      
+      import Ecto.Changeset
+      import Ecto.Quer
