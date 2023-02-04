@@ -20,4 +20,7 @@ defmodule StudyReminder.DataCase do
 
       import Ecto
       import Ecto.Changeset
-      import Ecto.Quer
+      import Ecto.Query
+      import StudyReminder.DataCase
+    end
+  en
