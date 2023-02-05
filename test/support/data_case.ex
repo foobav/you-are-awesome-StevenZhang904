@@ -23,4 +23,7 @@ defmodule StudyReminder.DataCase do
       import Ecto.Query
       import StudyReminder.DataCase
     end
-  en
+  end
+
+  setup tags do
+    :ok = Ecto.
