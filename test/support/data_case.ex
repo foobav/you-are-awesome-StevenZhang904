@@ -26,4 +26,4 @@ defmodule StudyReminder.DataCase do
   end
 
   setup tags do
-    :ok = Ecto.
+    :ok = Ecto.Adapters.SQL.Sandbox.checkout(StudyRemind
