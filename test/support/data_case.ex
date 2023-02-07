@@ -26,4 +26,7 @@ defmodule StudyReminder.DataCase do
   end
 
   setup tags do
-    :ok = Ecto.Adapters.SQL.Sandbox.checkout(StudyRemind
+    :ok = Ecto.Adapters.SQL.Sandbox.checkout(StudyReminder.Repo)
+
+    unless tags[:async] do
+      Ecto.Ad
