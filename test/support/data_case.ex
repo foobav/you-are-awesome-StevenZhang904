@@ -29,4 +29,4 @@ defmodule StudyReminder.DataCase do
     :ok = Ecto.Adapters.SQL.Sandbox.checkout(StudyReminder.Repo)
 
     unless tags[:async] do
-      Ecto.Ad
+      Ecto.Adapters.SQL.Sandbox.mode(StudyReminder.Repo, {:sh
