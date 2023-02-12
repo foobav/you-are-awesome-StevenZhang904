@@ -36,4 +36,6 @@ defmodule StudyReminder.DataCase do
   end
 
   @doc """
-  A helper that transforms changeset e
+  A helper that transforms changeset errors into a map of messages.
+
+      assert {
