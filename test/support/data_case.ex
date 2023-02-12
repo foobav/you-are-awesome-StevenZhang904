@@ -38,4 +38,5 @@ defmodule StudyReminder.DataCase do
   @doc """
   A helper that transforms changeset errors into a map of messages.
 
-      assert {:error, changeset} = Accounts.create
+      assert {:error, changeset} = Accounts.create_user(%{password: "short"})
+      assert "pas
