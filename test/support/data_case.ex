@@ -40,4 +40,6 @@ defmodule StudyReminder.DataCase do
 
       assert {:error, changeset} = Accounts.create_user(%{password: "short"})
       assert "password is too short" in errors_on(changeset).password
-      assert %{password: ["password i
+      assert %{password: ["password is too short"]} = errors_on(changeset)
+
+ 
