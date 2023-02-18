@@ -42,4 +42,6 @@ defmodule StudyReminder.DataCase do
       assert "password is too short" in errors_on(changeset).password
       assert %{password: ["password is too short"]} = errors_on(changeset)
 
- 
+  """
+  def errors_on(changeset) do
+    Ecto.Changese
