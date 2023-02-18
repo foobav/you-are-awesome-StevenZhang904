@@ -44,4 +44,4 @@ defmodule StudyReminder.DataCase do
 
   """
   def errors_on(changeset) do
-    Ecto.Changese
+    Ecto.Changeset.traverse_errors(changeset, fn {message, opts} -
