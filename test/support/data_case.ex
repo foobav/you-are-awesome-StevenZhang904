@@ -49,4 +49,5 @@ defmodule StudyReminder.DataCase do
         opts |> Keyword.get(String.to_existing_atom(key), key) |> to_string()
       end)
     end)
-  
+  end
+end
